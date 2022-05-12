@@ -1,0 +1,228 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR code generator</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style>
+      .flex {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+      }
+      .flex-1 {
+        flex: 1;
+        -webkit-flex: 1;
+      }
+      .justify-center {
+        justify-content: center;
+        -webkit-justify-content: space-center;
+      }
+      .justify-between {
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+      }
+      .items-center {
+        align-items: center;
+        -webkit-align-items: center;
+      }
+      .pb_before {
+        page-break-before: always !important;
+      } /* Breaks page before of element */
+      .pb_after {
+        page-break-after: always !important;
+      } /* Breaks page after of element */
+      .pbi_avoid {
+        page-break-inside: avoid !important;
+      } /* Avoid breaks page in element */
+    </style>
+  </head>
+  <body>
+    
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div class="flex">
+        <img height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABnCAYAAAAdQVz5AAAAAklEQVR4AewaftIAAAJsSURBVO3BUWosWQwFwTyi9r/lHH8WwtCXovtZ9igigAyh8lQSnlDpkjBBscYq1ljFGqtYY118Q+XTkvBUEk6ovIvKpyXhrlhjFWusYo1VrLEuDiXhKZWnkjBVEp5SeaVYYxVrrGKNVayxLn4hlRNJeEVlqmKNVayxijVWsca6+COS0Kl0SfgtijVWscYq1ljFGuvikMpvk4RO5V1UPqlYYxVrrGKNVayxLr6RhL9ApUvCncqJJPxrxRqrWGMVa6xijRW/MFgSTqj8NcUaq1hjFWusYo0VQBqVLgmfpnIiCU+pvJKET1N5pVhjFWusYo1VrLECyEMqJ5LQqXRJOKFyIgnvovJUEjqVLgl3xRqrWGMVa6xijRW/0CShU3mnJJxQ6ZLQqZxIwp1Kl4QTKk8loVO5K9ZYxRqrWGMVa6z4hTdKQqfyVBI6lS4Jn6RyIglPqdwVa6xijVWssYo11sU3ktCpPJWEEyrvpNIl4U7lRBI6lU7lXYo1VrHGKtZYF99QeUrlJ6hMlYROpUvCXbHGKtZYxRqrWGMFkCFUnkrCCZW7JHQqJ5JwQqVLQqdyV6yxijVWscYq1lgBpFH5tCR0Kl0STqh8UhJOqHRJeKJYYxVrrGKNVayxLg4l4SmVn5CETuUuCZ1Kp9Il4SmVV4o1VrHGKtZYxRrr4n8mCa8koVPpVLokdCpPFGusYo1VrLGKNdbFL6RyQqVLwp1Kl4QuCZ1Kp/IuxRqrWGMVa6xijXVxSOUnqDyVhFeScELlRBI6lSeKNVaxxirWWMUaK4AModIl4SmVLgl3KieS0KmcSMIJlbtijVWssYo11n+YS/arAwFlpgAAAABJRU5ErkJggg==" />
+      </div>
+      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
+      <div class="flex-1" style="font-size: 10px; text-align: left">
+        <div>
+          <span style="font-size: 1rem;">Asset ID:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
+        </div>
+        <div>
+          <span style="font-size: 1rem;">Asset Name:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
+        </div>
+        <div>
+          <span style="font-size: 1rem;">Export Date:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
+        </div>
+      </div>
+      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
+      <div
+        style="width: 15%; height: 100%; background-color: blue"
+        class=""
+      ></div>
+    </div>
+    
+    <div style="height: 8px" class="pb_before"></div>
+     
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div class="flex">
+        <img height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABnCAYAAAAdQVz5AAAAAklEQVR4AewaftIAAAJsSURBVO3BUWosWQwFwTyi9r/lHH8WwtCXovtZ9igigAyh8lQSnlDpkjBBscYq1ljFGqtYY118Q+XTkvBUEk6ovIvKpyXhrlhjFWusYo1VrLEuDiXhKZWnkjBVEp5SeaVYYxVrrGKNVayxLn4hlRNJeEVlqmKNVayxijVWsca6+COS0Kl0SfgtijVWscYq1ljFGuvikMpvk4RO5V1UPqlYYxVrrGKNVayxLr6RhL9ApUvCncqJJPxrxRqrWGMVa6xijRW/MFgSTqj8NcUaq1hjFWusYo0VQBqVLgmfpnIiCU+pvJKET1N5pVhjFWusYo1VrLECyEMqJ5LQqXRJOKFyIgnvovJUEjqVLgl3xRqrWGMVa6xijRW/0CShU3mnJJxQ6ZLQqZxIwp1Kl4QTKk8loVO5K9ZYxRqrWGMVa6z4hTdKQqfyVBI6lS4Jn6RyIglPqdwVa6xijVWssYo11sU3ktCpPJWEEyrvpNIl4U7lRBI6lU7lXYo1VrHGKtZYF99QeUrlJ6hMlYROpUvCXbHGKtZYxRqrWGMFkCFUnkrCCZW7JHQqJ5JwQqVLQqdyV6yxijVWscYq1lgBpFH5tCR0Kl0STqh8UhJOqHRJeKJYYxVrrGKNVayxLg4l4SmVn5CETuUuCZ1Kp9Il4SmVV4o1VrHGKtZYxRrr4n8mCa8koVPpVLokdCpPFGusYo1VrLGKNdbFL6RyQqVLwp1Kl4QuCZ1Kp/IuxRqrWGMVa6xijXVxSOUnqDyVhFeScELlRBI6lSeKNVaxxirWWMUaK4AModIl4SmVLgl3KieS0KmcSMIJlbtijVWssYo11n+YS/arAwFlpgAAAABJRU5ErkJggg==" />
+      </div>
+      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
+      <div class="flex-1" style="font-size: 10px; text-align: left">
+        <div>
+          <span style="font-size: 1rem;">Asset ID:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
+        </div>
+        <div>
+          <span style="font-size: 1rem;">Asset Name:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
+        </div>
+        <div>
+          <span style="font-size: 1rem;">Export Date:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
+        </div>
+      </div>
+      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
+      <div
+        style="width: 15%; height: 100%; background-color: blue"
+        class=""
+      ></div>
+    </div>
+    
+    <div style="height: 8px" class="pb_before"></div>
+     
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div class="flex">
+        <img height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABnCAYAAAAdQVz5AAAAAklEQVR4AewaftIAAAJsSURBVO3BUWosWQwFwTyi9r/lHH8WwtCXovtZ9igigAyh8lQSnlDpkjBBscYq1ljFGqtYY118Q+XTkvBUEk6ovIvKpyXhrlhjFWusYo1VrLEuDiXhKZWnkjBVEp5SeaVYYxVrrGKNVayxLn4hlRNJeEVlqmKNVayxijVWsca6+COS0Kl0SfgtijVWscYq1ljFGuvikMpvk4RO5V1UPqlYYxVrrGKNVayxLr6RhL9ApUvCncqJJPxrxRqrWGMVa6xijRW/MFgSTqj8NcUaq1hjFWusYo0VQBqVLgmfpnIiCU+pvJKET1N5pVhjFWusYo1VrLECyEMqJ5LQqXRJOKFyIgnvovJUEjqVLgl3xRqrWGMVa6xijRW/0CShU3mnJJxQ6ZLQqZxIwp1Kl4QTKk8loVO5K9ZYxRqrWGMVa6z4hTdKQqfyVBI6lS4Jn6RyIglPqdwVa6xijVWssYo11sU3ktCpPJWEEyrvpNIl4U7lRBI6lU7lXYo1VrHGKtZYF99QeUrlJ6hMlYROpUvCXbHGKtZYxRqrWGMFkCFUnkrCCZW7JHQqJ5JwQqVLQqdyV6yxijVWscYq1lgBpFH5tCR0Kl0STqh8UhJOqHRJeKJYYxVrrGKNVayxLg4l4SmVn5CETuUuCZ1Kp9Il4SmVV4o1VrHGKtZYxRrr4n8mCa8koVPpVLokdCpPFGusYo1VrLGKNdbFL6RyQqVLwp1Kl4QuCZ1Kp/IuxRqrWGMVa6xijXVxSOUnqDyVhFeScELlRBI6lSeKNVaxxirWWMUaK4AModIl4SmVLgl3KieS0KmcSMIJlbtijVWssYo11n+YS/arAwFlpgAAAABJRU5ErkJggg==" />
+      </div>
+      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
+      <div class="flex-1" style="font-size: 10px; text-align: left">
+        <div>
+          <span style="font-size: 1rem;">Asset ID:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
+        </div>
+        <div>
+          <span style="font-size: 1rem;">Asset Name:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
+        </div>
+        <div>
+          <span style="font-size: 1rem;">Export Date:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
+        </div>
+      </div>
+      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
+      <div
+        style="width: 15%; height: 100%; background-color: blue"
+        class=""
+      ></div>
+    </div>
+    
+    <div style="height: 8px" class="pb_before"></div>
+     
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div class="flex">
+        <img height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABnCAYAAAAdQVz5AAAAAklEQVR4AewaftIAAAJsSURBVO3BUWosWQwFwTyi9r/lHH8WwtCXovtZ9igigAyh8lQSnlDpkjBBscYq1ljFGqtYY118Q+XTkvBUEk6ovIvKpyXhrlhjFWusYo1VrLEuDiXhKZWnkjBVEp5SeaVYYxVrrGKNVayxLn4hlRNJeEVlqmKNVayxijVWsca6+COS0Kl0SfgtijVWscYq1ljFGuvikMpvk4RO5V1UPqlYYxVrrGKNVayxLr6RhL9ApUvCncqJJPxrxRqrWGMVa6xijRW/MFgSTqj8NcUaq1hjFWusYo0VQBqVLgmfpnIiCU+pvJKET1N5pVhjFWusYo1VrLECyEMqJ5LQqXRJOKFyIgnvovJUEjqVLgl3xRqrWGMVa6xijRW/0CShU3mnJJxQ6ZLQqZxIwp1Kl4QTKk8loVO5K9ZYxRqrWGMVa6z4hTdKQqfyVBI6lS4Jn6RyIglPqdwVa6xijVWssYo11sU3ktCpPJWEEyrvpNIl4U7lRBI6lU7lXYo1VrHGKtZYF99QeUrlJ6hMlYROpUvCXbHGKtZYxRqrWGMFkCFUnkrCCZW7JHQqJ5JwQqVLQqdyV6yxijVWscYq1lgBpFH5tCR0Kl0STqh8UhJOqHRJeKJYYxVrrGKNVayxLg4l4SmVn5CETuUuCZ1Kp9Il4SmVV4o1VrHGKtZYxRrr4n8mCa8koVPpVLokdCpPFGusYo1VrLGKNdbFL6RyQqVLwp1Kl4QuCZ1Kp/IuxRqrWGMVa6xijXVxSOUnqDyVhFeScELlRBI6lSeKNVaxxirWWMUaK4AModIl4SmVLgl3KieS0KmcSMIJlbtijVWssYo11n+YS/arAwFlpgAAAABJRU5ErkJggg==" />
+      </div>
+      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
+      <div class="flex-1" style="font-size: 10px; text-align: left">
+        <div>
+          <span style="font-size: 1rem;">Asset ID:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
+        </div>
+        <div>
+          <span style="font-size: 1rem;">Asset Name:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
+        </div>
+        <div>
+          <span style="font-size: 1rem;">Export Date:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
+        </div>
+      </div>
+      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
+      <div
+        style="width: 15%; height: 100%; background-color: blue"
+        class=""
+      ></div>
+    </div>
+    
+    <div style="height: 8px" class="pb_before"></div>
+     
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div class="flex">
+        <img height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABnCAYAAAAdQVz5AAAAAklEQVR4AewaftIAAAJsSURBVO3BUWosWQwFwTyi9r/lHH8WwtCXovtZ9igigAyh8lQSnlDpkjBBscYq1ljFGqtYY118Q+XTkvBUEk6ovIvKpyXhrlhjFWusYo1VrLEuDiXhKZWnkjBVEp5SeaVYYxVrrGKNVayxLn4hlRNJeEVlqmKNVayxijVWsca6+COS0Kl0SfgtijVWscYq1ljFGuvikMpvk4RO5V1UPqlYYxVrrGKNVayxLr6RhL9ApUvCncqJJPxrxRqrWGMVa6xijRW/MFgSTqj8NcUaq1hjFWusYo0VQBqVLgmfpnIiCU+pvJKET1N5pVhjFWusYo1VrLECyEMqJ5LQqXRJOKFyIgnvovJUEjqVLgl3xRqrWGMVa6xijRW/0CShU3mnJJxQ6ZLQqZxIwp1Kl4QTKk8loVO5K9ZYxRqrWGMVa6z4hTdKQqfyVBI6lS4Jn6RyIglPqdwVa6xijVWssYo11sU3ktCpPJWEEyrvpNIl4U7lRBI6lU7lXYo1VrHGKtZYF99QeUrlJ6hMlYROpUvCXbHGKtZYxRqrWGMFkCFUnkrCCZW7JHQqJ5JwQqVLQqdyV6yxijVWscYq1lgBpFH5tCR0Kl0STqh8UhJOqHRJeKJYYxVrrGKNVayxLg4l4SmVn5CETuUuCZ1Kp9Il4SmVV4o1VrHGKtZYxRrr4n8mCa8koVPpVLokdCpPFGusYo1VrLGKNdbFL6RyQqVLwp1Kl4QuCZ1Kp/IuxRqrWGMVa6xijXVxSOUnqDyVhFeScELlRBI6lSeKNVaxxirWWMUaK4AModIl4SmVLgl3KieS0KmcSMIJlbtijVWssYo11n+YS/arAwFlpgAAAABJRU5ErkJggg==" />
+      </div>
+      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
+      <div class="flex-1" style="font-size: 10px; text-align: left">
+        <div>
+          <span style="font-size: 1rem;">Asset ID:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
+        </div>
+        <div>
+          <span style="font-size: 1rem;">Asset Name:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
+        </div>
+        <div>
+          <span style="font-size: 1rem;">Export Date:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
+        </div>
+      </div>
+      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
+      <div
+        style="width: 15%; height: 100%; background-color: blue"
+        class=""
+      ></div>
+    </div>
+    
+    <div style="height: 8px" class="pb_before"></div>
+     
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div class="flex">
+        <img height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABnCAYAAAAdQVz5AAAAAklEQVR4AewaftIAAAJsSURBVO3BUWosWQwFwTyi9r/lHH8WwtCXovtZ9igigAyh8lQSnlDpkjBBscYq1ljFGqtYY118Q+XTkvBUEk6ovIvKpyXhrlhjFWusYo1VrLEuDiXhKZWnkjBVEp5SeaVYYxVrrGKNVayxLn4hlRNJeEVlqmKNVayxijVWsca6+COS0Kl0SfgtijVWscYq1ljFGuvikMpvk4RO5V1UPqlYYxVrrGKNVayxLr6RhL9ApUvCncqJJPxrxRqrWGMVa6xijRW/MFgSTqj8NcUaq1hjFWusYo0VQBqVLgmfpnIiCU+pvJKET1N5pVhjFWusYo1VrLECyEMqJ5LQqXRJOKFyIgnvovJUEjqVLgl3xRqrWGMVa6xijRW/0CShU3mnJJxQ6ZLQqZxIwp1Kl4QTKk8loVO5K9ZYxRqrWGMVa6z4hTdKQqfyVBI6lS4Jn6RyIglPqdwVa6xijVWssYo11sU3ktCpPJWEEyrvpNIl4U7lRBI6lU7lXYo1VrHGKtZYF99QeUrlJ6hMlYROpUvCXbHGKtZYxRqrWGMFkCFUnkrCCZW7JHQqJ5JwQqVLQqdyV6yxijVWscYq1lgBpFH5tCR0Kl0STqh8UhJOqHRJeKJYYxVrrGKNVayxLg4l4SmVn5CETuUuCZ1Kp9Il4SmVV4o1VrHGKtZYxRrr4n8mCa8koVPpVLokdCpPFGusYo1VrLGKNdbFL6RyQqVLwp1Kl4QuCZ1Kp/IuxRqrWGMVa6xijXVxSOUnqDyVhFeScELlRBI6lSeKNVaxxirWWMUaK4AModIl4SmVLgl3KieS0KmcSMIJlbtijVWssYo11n+YS/arAwFlpgAAAABJRU5ErkJggg==" />
+      </div>
+      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
+      <div class="flex-1" style="font-size: 10px; text-align: left">
+        <div>
+          <span style="font-size: 1rem;">Asset ID:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
+        </div>
+        <div>
+          <span style="font-size: 1rem;">Asset Name:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
+        </div>
+        <div>
+          <span style="font-size: 1rem;">Export Date:</span>
+          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
+        </div>
+      </div>
+      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
+      <div
+        style="width: 15%; height: 100%; background-color: blue"
+        class=""
+      ></div>
+    </div>
+     
+  </body>
+</html>
