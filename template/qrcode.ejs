@@ -36,6 +36,14 @@
       .pbi_avoid {
         page-break-inside: avoid !important;
       } /* Avoid breaks page in element */
+
+      .text-label {
+        font-size: 2.7vw;
+      }
+      .text-value {
+        font-size: 3vw;
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -44,29 +52,110 @@
       style="height: 100%; width: 100%"
       class="flex items-center justify-between"
     >
-      <div class="flex">
-        <img height="100%" src="<%= asset.qrcode_image %>" />
+      <div style="width: auto" class="flex">
+        <img
+          width="<%= qrcode.size %>px"
+          height="<%= qrcode.size %>px"
+          src="<%= asset.qrcode_image %>"
+        />
       </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
-      <div class="flex-1" style="font-size: 10px; text-align: left">
-        <div>
-          <span style="font-size: 1rem;">Asset ID:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Asset Name:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Export Date:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
-        </div>
-      </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
       <div
-        style="width: 15%; height: 100%; background-color: blue"
-        class=""
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
       ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="<%= logo.size %>px"
+          height="<%= logo.size %>px"
+          src="data:image/png;base64,<%= logo.image %>"
+        />
+      </div>
+    </div>
+    <% if (index + 1 < assets.length) { %>
+    <div style="height: 8px" class="pb_before"></div>
+    <% } %> <% }); %> 
+    
+    <div style="height: 8px" class="pb_before"></div>
+    <div class="flex">
+      <div>Wall 1</div>
+    </div>
+    <div style="height: 8px" class="pb_before"></div>
+    
+    <% assets.forEach((asset, index) => { %>
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div style="width: auto" class="flex">
+        <img
+          width="<%= qrcode.size %>px"
+          height="<%= qrcode.size %>px"
+          src="<%= asset.qrcode_image %>"
+        />
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="<%= logo.size %>px"
+          height="<%= logo.size %>px"
+          src="data:image/png;base64,<%= logo.image %>"
+        />
+      </div>
     </div>
     <% if (index + 1 < assets.length) { %>
     <div style="height: 8px" class="pb_before"></div>

@@ -36,6 +36,14 @@
       .pbi_avoid {
         page-break-inside: avoid !important;
       } /* Avoid breaks page in element */
+
+      .text-label {
+        font-size: 2.7vw;
+      }
+      .text-value {
+        font-size: 3vw;
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -44,29 +52,50 @@
       style="height: 100%; width: 100%"
       class="flex items-center justify-between"
     >
-      <div class="flex">
-        <img height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABnCAYAAAAdQVz5AAAAAklEQVR4AewaftIAAAJsSURBVO3BUWosWQwFwTyi9r/lHH8WwtCXovtZ9igigAyh8lQSnlDpkjBBscYq1ljFGqtYY118Q+XTkvBUEk6ovIvKpyXhrlhjFWusYo1VrLEuDiXhKZWnkjBVEp5SeaVYYxVrrGKNVayxLn4hlRNJeEVlqmKNVayxijVWsca6+COS0Kl0SfgtijVWscYq1ljFGuvikMpvk4RO5V1UPqlYYxVrrGKNVayxLr6RhL9ApUvCncqJJPxrxRqrWGMVa6xijRW/MFgSTqj8NcUaq1hjFWusYo0VQBqVLgmfpnIiCU+pvJKET1N5pVhjFWusYo1VrLECyEMqJ5LQqXRJOKFyIgnvovJUEjqVLgl3xRqrWGMVa6xijRW/0CShU3mnJJxQ6ZLQqZxIwp1Kl4QTKk8loVO5K9ZYxRqrWGMVa6z4hTdKQqfyVBI6lS4Jn6RyIglPqdwVa6xijVWssYo11sU3ktCpPJWEEyrvpNIl4U7lRBI6lU7lXYo1VrHGKtZYF99QeUrlJ6hMlYROpUvCXbHGKtZYxRqrWGMFkCFUnkrCCZW7JHQqJ5JwQqVLQqdyV6yxijVWscYq1lgBpFH5tCR0Kl0STqh8UhJOqHRJeKJYYxVrrGKNVayxLg4l4SmVn5CETuUuCZ1Kp9Il4SmVV4o1VrHGKtZYxRrr4n8mCa8koVPpVLokdCpPFGusYo1VrLGKNdbFL6RyQqVLwp1Kl4QuCZ1Kp/IuxRqrWGMVa6xijXVxSOUnqDyVhFeScELlRBI6lSeKNVaxxirWWMUaK4AModIl4SmVLgl3KieS0KmcSMIJlbtijVWssYo11n+YS/arAwFlpgAAAABJRU5ErkJggg==" />
+      <div style="width: auto" class="flex">
+        <img
+          width="66.66666666666667px"
+          height="66.66666666666667px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAAklEQVR4AewaftIAAAHrSURBVO3BWYorOQAAwUzh+185py0QFKa8jXt5H4oQiB9S8YzKKyoWle822KbBNg226cKNik+oPKNypuJdFZ9QuRps02CbLjyg8kzFK1R+msorKm4NtmmwTRf+QMUZlXsqftJgmwbbdOGPqSwVRyq/ZbBNg2268EDFb1I5qnhHxf812KbBNg226cINlb9ScaSyVJxR+Q6DbRpsk33hF6icqfgXDLZpsE0CcVCxqHyi4ozKKyrOqHyi4tZgmwbbJBAvqDijclSxqJypOKPyropXqCwVi8rVYJsG22RfOFBZKt6lcqZiUVkq7lFZKhaVMxWvUFkqrgbbNNgm+8KbVJaKV6gsFYvKJyrOqLyi4mqwTYNtGmzThRsqS8UzKvdUvKPiSGWpOKOyVCwV7xhs02CbLtyoeKbiu1T8BpWlYlG5GmzTYJsE4odUPKNyT8WislScUbmnYlFZKq4G2zTYJoE4qPiEylKxqJyp+ITKmYojlUcG2zTYpgsPqDxT8V1UjioWlaViqVhUXlFxa7BNg2268A9TOaOyVCwVi8pRxSODbRps02CbLvyBijMVRypLxaKyqCwVS8U7Bts02KYLD1R8l4pnVO5ROVNxRuWo4pHBNg22SSB+SMWi8kzFkcpScUZlqbhH5UzF1WCb/gOD3vZhX4N+EwAAAABJRU5ErkJggg=="
+        />
       </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
-      <div class="flex-1" style="font-size: 10px; text-align: left">
-        <div>
-          <span style="font-size: 1rem;">Asset ID:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Asset Name:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Export Date:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
-        </div>
-      </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
       <div
-        style="width: 15%; height: 100%; background-color: blue"
-        class=""
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
       ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="33.333333333333336px"
+          height="33.333333333333336px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABYCAYAAAC9DArfAAAEuklEQVR4Ae1d0XWcMBBMCcty/k8J7sDuIOkg6SDpwOnAJbiElOASUoJLcAnO2zvBGSMJaTULAvnewzyDjpNGs6PVroAvX0AfZv7DzE872x6I6B4EQdplmPk3M7/teHuVTiair2ktLijV9/3zjoH62MmPREQFcMS/yszSMx9/dM//v5iwjIhuDwbU0Ml4wPq+/3lQsAQ0AQxnksz8eGCwBLDHuAhlnD2YuA8mONnD3IuDs+oMWtd1fzP44y96Op3uWwBLRvti7WLmX42A9VZsikLPVsASYvjtK/EoM/9rCCz9qCg23BBQIvRPiRyaF2tI3Ac3Qg9WS+LuLEgPVmPiXmaGMm/61Ky5PM2ONCjuemY1KO56sJj5oTET1IPVQqTBQwbdaHjAMLIwZ2lTg7V04SOeV4P1qVkzHyFyQBIVp9Ppbk+bSwBrWa9jVgTD6k8VDE4P1TcOXUHtNI2IfqDrUvX1JHGqHclNkq41o6XVrK7rXmpuF7xujlUqcW/OBD9Zlci/QlbZL0NKbMcqxbSsIqKyjM4qrQP+iJZVzQElmOeySkY+IroD9tc+LpXDqq7rJAeKMTsJJd/c3NxKGhu9WUGfwio4k1wPmSUouq57RgOWyarnvu8x05k1coQSxUACppwwvxSDpp18JkQfR49amIACqzShIkxX18d6AQgRQcMfSlaNHec6OX8BrnWOED1JBS8IzluAW0rpJVNU0z1gswaZ8vSlRsbiDg3Vglk1mmXyqj8rcXf+DUzUhWgGrDoDluzaWFUAHSOyYtUgI6LdAcu/HM5x7IaLpuyTeypau+lJq04d2rPof/V9/30ojNyjRd2aVa7tcaG3WACC9qmEX9ascmDFByOQczeOKmifSoBaiVXShjhY2rRRyGSJ6NtUacr/W4lVcbAM7iOM94wCtxVZFQcLKe4WPpUbqc3CRh7rCHc28j5CtE8lJHR3+4966Gkc+lwYLJS4W4j6BqyKmyFK3NE+1UasCoOFEncLn8qxCm1iKdfzmyFilHGiHp9PKUbAlCSEkX75wUKIu4Wob8iqsBkCwsj+XlAw6f1XNmRVFKwUGw6VkfuJoXEqAWxjVvnBKg0jW4i6gLUxq/xglYSRLXyqSljlB6skjGxhfpWwyg9WgbibiHoFWiVAzcHS5ggtJsrCKPlUoFV+sLTibuFTCVAVsWrOLI24i8ZdOID/i5rMgzz6qcxoxN1K1LUsBwEzmN77/RSs3BCtlU8lHK2MVVMzzBV3K5/KAVXj096uzMqlveUi1VyGG5qe3wwzc4RXlMG6jggPGYF3bXOqRlj6VIJ7payaalZqGNnKp6pYqwZTvDArNYxsKeqVs0oAu6x1SM0RWvlUO2CVPMbusvQ7JYxs6VPtgFUC1iWguSTuTtThyQcBST4Vj4BnvZqsJ1sS95GCrnHoXcUj4Bms0adMEPerf4FG6eIq1P4s+Wv7F0zAJPkwYO5CMGsu7hjcgKT9zKeMibv1DYobLO5IAsnNAOZECYm7tU9VM6tmjBpMITSPGofKoSB4n+rbhepneDz8WoYAs+IrcwHA5UY5DMER03yVwOc46oXa58xBHoB/fg2MtfP5vh5EJHGrLV8/I6+SuVu8IcBV+j8otbRP7hxZZQAAAABJRU5ErkJggg=="
+        />
+      </div>
     </div>
     
     <div style="height: 8px" class="pb_before"></div>
@@ -75,29 +104,50 @@
       style="height: 100%; width: 100%"
       class="flex items-center justify-between"
     >
-      <div class="flex">
-        <img height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABnCAYAAAAdQVz5AAAAAklEQVR4AewaftIAAAJsSURBVO3BUWosWQwFwTyi9r/lHH8WwtCXovtZ9igigAyh8lQSnlDpkjBBscYq1ljFGqtYY118Q+XTkvBUEk6ovIvKpyXhrlhjFWusYo1VrLEuDiXhKZWnkjBVEp5SeaVYYxVrrGKNVayxLn4hlRNJeEVlqmKNVayxijVWsca6+COS0Kl0SfgtijVWscYq1ljFGuvikMpvk4RO5V1UPqlYYxVrrGKNVayxLr6RhL9ApUvCncqJJPxrxRqrWGMVa6xijRW/MFgSTqj8NcUaq1hjFWusYo0VQBqVLgmfpnIiCU+pvJKET1N5pVhjFWusYo1VrLECyEMqJ5LQqXRJOKFyIgnvovJUEjqVLgl3xRqrWGMVa6xijRW/0CShU3mnJJxQ6ZLQqZxIwp1Kl4QTKk8loVO5K9ZYxRqrWGMVa6z4hTdKQqfyVBI6lS4Jn6RyIglPqdwVa6xijVWssYo11sU3ktCpPJWEEyrvpNIl4U7lRBI6lU7lXYo1VrHGKtZYF99QeUrlJ6hMlYROpUvCXbHGKtZYxRqrWGMFkCFUnkrCCZW7JHQqJ5JwQqVLQqdyV6yxijVWscYq1lgBpFH5tCR0Kl0STqh8UhJOqHRJeKJYYxVrrGKNVayxLg4l4SmVn5CETuUuCZ1Kp9Il4SmVV4o1VrHGKtZYxRrr4n8mCa8koVPpVLokdCpPFGusYo1VrLGKNdbFL6RyQqVLwp1Kl4QuCZ1Kp/IuxRqrWGMVa6xijXVxSOUnqDyVhFeScELlRBI6lSeKNVaxxirWWMUaK4AModIl4SmVLgl3KieS0KmcSMIJlbtijVWssYo11n+YS/arAwFlpgAAAABJRU5ErkJggg==" />
+      <div style="width: auto" class="flex">
+        <img
+          width="66.66666666666667px"
+          height="66.66666666666667px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAAklEQVR4AewaftIAAAHrSURBVO3BWYorOQAAwUzh+185py0QFKa8jXt5H4oQiB9S8YzKKyoWle822KbBNg226cKNik+oPKNypuJdFZ9QuRps02CbLjyg8kzFK1R+msorKm4NtmmwTRf+QMUZlXsqftJgmwbbdOGPqSwVRyq/ZbBNg2268EDFb1I5qnhHxf812KbBNg226cINlb9ScaSyVJxR+Q6DbRpsk33hF6icqfgXDLZpsE0CcVCxqHyi4ozKKyrOqHyi4tZgmwbbJBAvqDijclSxqJypOKPyropXqCwVi8rVYJsG22RfOFBZKt6lcqZiUVkq7lFZKhaVMxWvUFkqrgbbNNgm+8KbVJaKV6gsFYvKJyrOqLyi4mqwTYNtGmzThRsqS8UzKvdUvKPiSGWpOKOyVCwV7xhs02CbLtyoeKbiu1T8BpWlYlG5GmzTYJsE4odUPKNyT8WislScUbmnYlFZKq4G2zTYJoE4qPiEylKxqJyp+ITKmYojlUcG2zTYpgsPqDxT8V1UjioWlaViqVhUXlFxa7BNg2268A9TOaOyVCwVi8pRxSODbRps02CbLvyBijMVRypLxaKyqCwVS8U7Bts02KYLD1R8l4pnVO5ROVNxRuWo4pHBNg22SSB+SMWi8kzFkcpScUZlqbhH5UzF1WCb/gOD3vZhX4N+EwAAAABJRU5ErkJggg=="
+        />
       </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
-      <div class="flex-1" style="font-size: 10px; text-align: left">
-        <div>
-          <span style="font-size: 1rem;">Asset ID:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Asset Name:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Export Date:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
-        </div>
-      </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
       <div
-        style="width: 15%; height: 100%; background-color: blue"
-        class=""
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
       ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="33.333333333333336px"
+          height="33.333333333333336px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABYCAYAAAC9DArfAAAEuklEQVR4Ae1d0XWcMBBMCcty/k8J7sDuIOkg6SDpwOnAJbiElOASUoJLcAnO2zvBGSMJaTULAvnewzyDjpNGs6PVroAvX0AfZv7DzE872x6I6B4EQdplmPk3M7/teHuVTiair2ktLijV9/3zjoH62MmPREQFcMS/yszSMx9/dM//v5iwjIhuDwbU0Ml4wPq+/3lQsAQ0AQxnksz8eGCwBLDHuAhlnD2YuA8mONnD3IuDs+oMWtd1fzP44y96Op3uWwBLRvti7WLmX42A9VZsikLPVsASYvjtK/EoM/9rCCz9qCg23BBQIvRPiRyaF2tI3Ac3Qg9WS+LuLEgPVmPiXmaGMm/61Ky5PM2ONCjuemY1KO56sJj5oTET1IPVQqTBQwbdaHjAMLIwZ2lTg7V04SOeV4P1qVkzHyFyQBIVp9Ppbk+bSwBrWa9jVgTD6k8VDE4P1TcOXUHtNI2IfqDrUvX1JHGqHclNkq41o6XVrK7rXmpuF7xujlUqcW/OBD9Zlci/QlbZL0NKbMcqxbSsIqKyjM4qrQP+iJZVzQElmOeySkY+IroD9tc+LpXDqq7rJAeKMTsJJd/c3NxKGhu9WUGfwio4k1wPmSUouq57RgOWyarnvu8x05k1coQSxUACppwwvxSDpp18JkQfR49amIACqzShIkxX18d6AQgRQcMfSlaNHec6OX8BrnWOED1JBS8IzluAW0rpJVNU0z1gswaZ8vSlRsbiDg3Vglk1mmXyqj8rcXf+DUzUhWgGrDoDluzaWFUAHSOyYtUgI6LdAcu/HM5x7IaLpuyTeypau+lJq04d2rPof/V9/30ojNyjRd2aVa7tcaG3WACC9qmEX9ascmDFByOQczeOKmifSoBaiVXShjhY2rRRyGSJ6NtUacr/W4lVcbAM7iOM94wCtxVZFQcLKe4WPpUbqc3CRh7rCHc28j5CtE8lJHR3+4966Gkc+lwYLJS4W4j6BqyKmyFK3NE+1UasCoOFEncLn8qxCm1iKdfzmyFilHGiHp9PKUbAlCSEkX75wUKIu4Wob8iqsBkCwsj+XlAw6f1XNmRVFKwUGw6VkfuJoXEqAWxjVvnBKg0jW4i6gLUxq/xglYSRLXyqSljlB6skjGxhfpWwyg9WgbibiHoFWiVAzcHS5ggtJsrCKPlUoFV+sLTibuFTCVAVsWrOLI24i8ZdOID/i5rMgzz6qcxoxN1K1LUsBwEzmN77/RSs3BCtlU8lHK2MVVMzzBV3K5/KAVXj096uzMqlveUi1VyGG5qe3wwzc4RXlMG6jggPGYF3bXOqRlj6VIJ7payaalZqGNnKp6pYqwZTvDArNYxsKeqVs0oAu6x1SM0RWvlUO2CVPMbusvQ7JYxs6VPtgFUC1iWguSTuTtThyQcBST4Vj4BnvZqsJ1sS95GCrnHoXcUj4Bms0adMEPerf4FG6eIq1P4s+Wv7F0zAJPkwYO5CMGsu7hjcgKT9zKeMibv1DYobLO5IAsnNAOZECYm7tU9VM6tmjBpMITSPGofKoSB4n+rbhepneDz8WoYAs+IrcwHA5UY5DMER03yVwOc46oXa58xBHoB/fg2MtfP5vh5EJHGrLV8/I6+SuVu8IcBV+j8otbRP7hxZZQAAAABJRU5ErkJggg=="
+        />
+      </div>
     </div>
     
     <div style="height: 8px" class="pb_before"></div>
@@ -106,29 +156,50 @@
       style="height: 100%; width: 100%"
       class="flex items-center justify-between"
     >
-      <div class="flex">
-        <img height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABnCAYAAAAdQVz5AAAAAklEQVR4AewaftIAAAJsSURBVO3BUWosWQwFwTyi9r/lHH8WwtCXovtZ9igigAyh8lQSnlDpkjBBscYq1ljFGqtYY118Q+XTkvBUEk6ovIvKpyXhrlhjFWusYo1VrLEuDiXhKZWnkjBVEp5SeaVYYxVrrGKNVayxLn4hlRNJeEVlqmKNVayxijVWsca6+COS0Kl0SfgtijVWscYq1ljFGuvikMpvk4RO5V1UPqlYYxVrrGKNVayxLr6RhL9ApUvCncqJJPxrxRqrWGMVa6xijRW/MFgSTqj8NcUaq1hjFWusYo0VQBqVLgmfpnIiCU+pvJKET1N5pVhjFWusYo1VrLECyEMqJ5LQqXRJOKFyIgnvovJUEjqVLgl3xRqrWGMVa6xijRW/0CShU3mnJJxQ6ZLQqZxIwp1Kl4QTKk8loVO5K9ZYxRqrWGMVa6z4hTdKQqfyVBI6lS4Jn6RyIglPqdwVa6xijVWssYo11sU3ktCpPJWEEyrvpNIl4U7lRBI6lU7lXYo1VrHGKtZYF99QeUrlJ6hMlYROpUvCXbHGKtZYxRqrWGMFkCFUnkrCCZW7JHQqJ5JwQqVLQqdyV6yxijVWscYq1lgBpFH5tCR0Kl0STqh8UhJOqHRJeKJYYxVrrGKNVayxLg4l4SmVn5CETuUuCZ1Kp9Il4SmVV4o1VrHGKtZYxRrr4n8mCa8koVPpVLokdCpPFGusYo1VrLGKNdbFL6RyQqVLwp1Kl4QuCZ1Kp/IuxRqrWGMVa6xijXVxSOUnqDyVhFeScELlRBI6lSeKNVaxxirWWMUaK4AModIl4SmVLgl3KieS0KmcSMIJlbtijVWssYo11n+YS/arAwFlpgAAAABJRU5ErkJggg==" />
+      <div style="width: auto" class="flex">
+        <img
+          width="66.66666666666667px"
+          height="66.66666666666667px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAAklEQVR4AewaftIAAAHrSURBVO3BWYorOQAAwUzh+185py0QFKa8jXt5H4oQiB9S8YzKKyoWle822KbBNg226cKNik+oPKNypuJdFZ9QuRps02CbLjyg8kzFK1R+msorKm4NtmmwTRf+QMUZlXsqftJgmwbbdOGPqSwVRyq/ZbBNg2268EDFb1I5qnhHxf812KbBNg226cINlb9ScaSyVJxR+Q6DbRpsk33hF6icqfgXDLZpsE0CcVCxqHyi4ozKKyrOqHyi4tZgmwbbJBAvqDijclSxqJypOKPyropXqCwVi8rVYJsG22RfOFBZKt6lcqZiUVkq7lFZKhaVMxWvUFkqrgbbNNgm+8KbVJaKV6gsFYvKJyrOqLyi4mqwTYNtGmzThRsqS8UzKvdUvKPiSGWpOKOyVCwV7xhs02CbLtyoeKbiu1T8BpWlYlG5GmzTYJsE4odUPKNyT8WislScUbmnYlFZKq4G2zTYJoE4qPiEylKxqJyp+ITKmYojlUcG2zTYpgsPqDxT8V1UjioWlaViqVhUXlFxa7BNg2268A9TOaOyVCwVi8pRxSODbRps02CbLvyBijMVRypLxaKyqCwVS8U7Bts02KYLD1R8l4pnVO5ROVNxRuWo4pHBNg22SSB+SMWi8kzFkcpScUZlqbhH5UzF1WCb/gOD3vZhX4N+EwAAAABJRU5ErkJggg=="
+        />
       </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
-      <div class="flex-1" style="font-size: 10px; text-align: left">
-        <div>
-          <span style="font-size: 1rem;">Asset ID:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Asset Name:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Export Date:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
-        </div>
-      </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
       <div
-        style="width: 15%; height: 100%; background-color: blue"
-        class=""
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
       ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="33.333333333333336px"
+          height="33.333333333333336px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABYCAYAAAC9DArfAAAEuklEQVR4Ae1d0XWcMBBMCcty/k8J7sDuIOkg6SDpwOnAJbiElOASUoJLcAnO2zvBGSMJaTULAvnewzyDjpNGs6PVroAvX0AfZv7DzE872x6I6B4EQdplmPk3M7/teHuVTiair2ktLijV9/3zjoH62MmPREQFcMS/yszSMx9/dM//v5iwjIhuDwbU0Ml4wPq+/3lQsAQ0AQxnksz8eGCwBLDHuAhlnD2YuA8mONnD3IuDs+oMWtd1fzP44y96Op3uWwBLRvti7WLmX42A9VZsikLPVsASYvjtK/EoM/9rCCz9qCg23BBQIvRPiRyaF2tI3Ac3Qg9WS+LuLEgPVmPiXmaGMm/61Ky5PM2ONCjuemY1KO56sJj5oTET1IPVQqTBQwbdaHjAMLIwZ2lTg7V04SOeV4P1qVkzHyFyQBIVp9Ppbk+bSwBrWa9jVgTD6k8VDE4P1TcOXUHtNI2IfqDrUvX1JHGqHclNkq41o6XVrK7rXmpuF7xujlUqcW/OBD9Zlci/QlbZL0NKbMcqxbSsIqKyjM4qrQP+iJZVzQElmOeySkY+IroD9tc+LpXDqq7rJAeKMTsJJd/c3NxKGhu9WUGfwio4k1wPmSUouq57RgOWyarnvu8x05k1coQSxUACppwwvxSDpp18JkQfR49amIACqzShIkxX18d6AQgRQcMfSlaNHec6OX8BrnWOED1JBS8IzluAW0rpJVNU0z1gswaZ8vSlRsbiDg3Vglk1mmXyqj8rcXf+DUzUhWgGrDoDluzaWFUAHSOyYtUgI6LdAcu/HM5x7IaLpuyTeypau+lJq04d2rPof/V9/30ojNyjRd2aVa7tcaG3WACC9qmEX9ascmDFByOQczeOKmifSoBaiVXShjhY2rRRyGSJ6NtUacr/W4lVcbAM7iOM94wCtxVZFQcLKe4WPpUbqc3CRh7rCHc28j5CtE8lJHR3+4966Gkc+lwYLJS4W4j6BqyKmyFK3NE+1UasCoOFEncLn8qxCm1iKdfzmyFilHGiHp9PKUbAlCSEkX75wUKIu4Wob8iqsBkCwsj+XlAw6f1XNmRVFKwUGw6VkfuJoXEqAWxjVvnBKg0jW4i6gLUxq/xglYSRLXyqSljlB6skjGxhfpWwyg9WgbibiHoFWiVAzcHS5ggtJsrCKPlUoFV+sLTibuFTCVAVsWrOLI24i8ZdOID/i5rMgzz6qcxoxN1K1LUsBwEzmN77/RSs3BCtlU8lHK2MVVMzzBV3K5/KAVXj096uzMqlveUi1VyGG5qe3wwzc4RXlMG6jggPGYF3bXOqRlj6VIJ7payaalZqGNnKp6pYqwZTvDArNYxsKeqVs0oAu6x1SM0RWvlUO2CVPMbusvQ7JYxs6VPtgFUC1iWguSTuTtThyQcBST4Vj4BnvZqsJ1sS95GCrnHoXcUj4Bms0adMEPerf4FG6eIq1P4s+Wv7F0zAJPkwYO5CMGsu7hjcgKT9zKeMibv1DYobLO5IAsnNAOZECYm7tU9VM6tmjBpMITSPGofKoSB4n+rbhepneDz8WoYAs+IrcwHA5UY5DMER03yVwOc46oXa58xBHoB/fg2MtfP5vh5EJHGrLV8/I6+SuVu8IcBV+j8otbRP7hxZZQAAAABJRU5ErkJggg=="
+        />
+      </div>
     </div>
     
     <div style="height: 8px" class="pb_before"></div>
@@ -137,29 +208,50 @@
       style="height: 100%; width: 100%"
       class="flex items-center justify-between"
     >
-      <div class="flex">
-        <img height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABnCAYAAAAdQVz5AAAAAklEQVR4AewaftIAAAJsSURBVO3BUWosWQwFwTyi9r/lHH8WwtCXovtZ9igigAyh8lQSnlDpkjBBscYq1ljFGqtYY118Q+XTkvBUEk6ovIvKpyXhrlhjFWusYo1VrLEuDiXhKZWnkjBVEp5SeaVYYxVrrGKNVayxLn4hlRNJeEVlqmKNVayxijVWsca6+COS0Kl0SfgtijVWscYq1ljFGuvikMpvk4RO5V1UPqlYYxVrrGKNVayxLr6RhL9ApUvCncqJJPxrxRqrWGMVa6xijRW/MFgSTqj8NcUaq1hjFWusYo0VQBqVLgmfpnIiCU+pvJKET1N5pVhjFWusYo1VrLECyEMqJ5LQqXRJOKFyIgnvovJUEjqVLgl3xRqrWGMVa6xijRW/0CShU3mnJJxQ6ZLQqZxIwp1Kl4QTKk8loVO5K9ZYxRqrWGMVa6z4hTdKQqfyVBI6lS4Jn6RyIglPqdwVa6xijVWssYo11sU3ktCpPJWEEyrvpNIl4U7lRBI6lU7lXYo1VrHGKtZYF99QeUrlJ6hMlYROpUvCXbHGKtZYxRqrWGMFkCFUnkrCCZW7JHQqJ5JwQqVLQqdyV6yxijVWscYq1lgBpFH5tCR0Kl0STqh8UhJOqHRJeKJYYxVrrGKNVayxLg4l4SmVn5CETuUuCZ1Kp9Il4SmVV4o1VrHGKtZYxRrr4n8mCa8koVPpVLokdCpPFGusYo1VrLGKNdbFL6RyQqVLwp1Kl4QuCZ1Kp/IuxRqrWGMVa6xijXVxSOUnqDyVhFeScELlRBI6lSeKNVaxxirWWMUaK4AModIl4SmVLgl3KieS0KmcSMIJlbtijVWssYo11n+YS/arAwFlpgAAAABJRU5ErkJggg==" />
+      <div style="width: auto" class="flex">
+        <img
+          width="66.66666666666667px"
+          height="66.66666666666667px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAAklEQVR4AewaftIAAAHrSURBVO3BWYorOQAAwUzh+185py0QFKa8jXt5H4oQiB9S8YzKKyoWle822KbBNg226cKNik+oPKNypuJdFZ9QuRps02CbLjyg8kzFK1R+msorKm4NtmmwTRf+QMUZlXsqftJgmwbbdOGPqSwVRyq/ZbBNg2268EDFb1I5qnhHxf812KbBNg226cINlb9ScaSyVJxR+Q6DbRpsk33hF6icqfgXDLZpsE0CcVCxqHyi4ozKKyrOqHyi4tZgmwbbJBAvqDijclSxqJypOKPyropXqCwVi8rVYJsG22RfOFBZKt6lcqZiUVkq7lFZKhaVMxWvUFkqrgbbNNgm+8KbVJaKV6gsFYvKJyrOqLyi4mqwTYNtGmzThRsqS8UzKvdUvKPiSGWpOKOyVCwV7xhs02CbLtyoeKbiu1T8BpWlYlG5GmzTYJsE4odUPKNyT8WislScUbmnYlFZKq4G2zTYJoE4qPiEylKxqJyp+ITKmYojlUcG2zTYpgsPqDxT8V1UjioWlaViqVhUXlFxa7BNg2268A9TOaOyVCwVi8pRxSODbRps02CbLvyBijMVRypLxaKyqCwVS8U7Bts02KYLD1R8l4pnVO5ROVNxRuWo4pHBNg22SSB+SMWi8kzFkcpScUZlqbhH5UzF1WCb/gOD3vZhX4N+EwAAAABJRU5ErkJggg=="
+        />
       </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
-      <div class="flex-1" style="font-size: 10px; text-align: left">
-        <div>
-          <span style="font-size: 1rem;">Asset ID:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Asset Name:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Export Date:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
-        </div>
-      </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
       <div
-        style="width: 15%; height: 100%; background-color: blue"
-        class=""
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
       ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="33.333333333333336px"
+          height="33.333333333333336px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABYCAYAAAC9DArfAAAEuklEQVR4Ae1d0XWcMBBMCcty/k8J7sDuIOkg6SDpwOnAJbiElOASUoJLcAnO2zvBGSMJaTULAvnewzyDjpNGs6PVroAvX0AfZv7DzE872x6I6B4EQdplmPk3M7/teHuVTiair2ktLijV9/3zjoH62MmPREQFcMS/yszSMx9/dM//v5iwjIhuDwbU0Ml4wPq+/3lQsAQ0AQxnksz8eGCwBLDHuAhlnD2YuA8mONnD3IuDs+oMWtd1fzP44y96Op3uWwBLRvti7WLmX42A9VZsikLPVsASYvjtK/EoM/9rCCz9qCg23BBQIvRPiRyaF2tI3Ac3Qg9WS+LuLEgPVmPiXmaGMm/61Ky5PM2ONCjuemY1KO56sJj5oTET1IPVQqTBQwbdaHjAMLIwZ2lTg7V04SOeV4P1qVkzHyFyQBIVp9Ppbk+bSwBrWa9jVgTD6k8VDE4P1TcOXUHtNI2IfqDrUvX1JHGqHclNkq41o6XVrK7rXmpuF7xujlUqcW/OBD9Zlci/QlbZL0NKbMcqxbSsIqKyjM4qrQP+iJZVzQElmOeySkY+IroD9tc+LpXDqq7rJAeKMTsJJd/c3NxKGhu9WUGfwio4k1wPmSUouq57RgOWyarnvu8x05k1coQSxUACppwwvxSDpp18JkQfR49amIACqzShIkxX18d6AQgRQcMfSlaNHec6OX8BrnWOED1JBS8IzluAW0rpJVNU0z1gswaZ8vSlRsbiDg3Vglk1mmXyqj8rcXf+DUzUhWgGrDoDluzaWFUAHSOyYtUgI6LdAcu/HM5x7IaLpuyTeypau+lJq04d2rPof/V9/30ojNyjRd2aVa7tcaG3WACC9qmEX9ascmDFByOQczeOKmifSoBaiVXShjhY2rRRyGSJ6NtUacr/W4lVcbAM7iOM94wCtxVZFQcLKe4WPpUbqc3CRh7rCHc28j5CtE8lJHR3+4966Gkc+lwYLJS4W4j6BqyKmyFK3NE+1UasCoOFEncLn8qxCm1iKdfzmyFilHGiHp9PKUbAlCSEkX75wUKIu4Wob8iqsBkCwsj+XlAw6f1XNmRVFKwUGw6VkfuJoXEqAWxjVvnBKg0jW4i6gLUxq/xglYSRLXyqSljlB6skjGxhfpWwyg9WgbibiHoFWiVAzcHS5ggtJsrCKPlUoFV+sLTibuFTCVAVsWrOLI24i8ZdOID/i5rMgzz6qcxoxN1K1LUsBwEzmN77/RSs3BCtlU8lHK2MVVMzzBV3K5/KAVXj096uzMqlveUi1VyGG5qe3wwzc4RXlMG6jggPGYF3bXOqRlj6VIJ7payaalZqGNnKp6pYqwZTvDArNYxsKeqVs0oAu6x1SM0RWvlUO2CVPMbusvQ7JYxs6VPtgFUC1iWguSTuTtThyQcBST4Vj4BnvZqsJ1sS95GCrnHoXcUj4Bms0adMEPerf4FG6eIq1P4s+Wv7F0zAJPkwYO5CMGsu7hjcgKT9zKeMibv1DYobLO5IAsnNAOZECYm7tU9VM6tmjBpMITSPGofKoSB4n+rbhepneDz8WoYAs+IrcwHA5UY5DMER03yVwOc46oXa58xBHoB/fg2MtfP5vh5EJHGrLV8/I6+SuVu8IcBV+j8otbRP7hxZZQAAAABJRU5ErkJggg=="
+        />
+      </div>
     </div>
     
     <div style="height: 8px" class="pb_before"></div>
@@ -168,29 +260,50 @@
       style="height: 100%; width: 100%"
       class="flex items-center justify-between"
     >
-      <div class="flex">
-        <img height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABnCAYAAAAdQVz5AAAAAklEQVR4AewaftIAAAJsSURBVO3BUWosWQwFwTyi9r/lHH8WwtCXovtZ9igigAyh8lQSnlDpkjBBscYq1ljFGqtYY118Q+XTkvBUEk6ovIvKpyXhrlhjFWusYo1VrLEuDiXhKZWnkjBVEp5SeaVYYxVrrGKNVayxLn4hlRNJeEVlqmKNVayxijVWsca6+COS0Kl0SfgtijVWscYq1ljFGuvikMpvk4RO5V1UPqlYYxVrrGKNVayxLr6RhL9ApUvCncqJJPxrxRqrWGMVa6xijRW/MFgSTqj8NcUaq1hjFWusYo0VQBqVLgmfpnIiCU+pvJKET1N5pVhjFWusYo1VrLECyEMqJ5LQqXRJOKFyIgnvovJUEjqVLgl3xRqrWGMVa6xijRW/0CShU3mnJJxQ6ZLQqZxIwp1Kl4QTKk8loVO5K9ZYxRqrWGMVa6z4hTdKQqfyVBI6lS4Jn6RyIglPqdwVa6xijVWssYo11sU3ktCpPJWEEyrvpNIl4U7lRBI6lU7lXYo1VrHGKtZYF99QeUrlJ6hMlYROpUvCXbHGKtZYxRqrWGMFkCFUnkrCCZW7JHQqJ5JwQqVLQqdyV6yxijVWscYq1lgBpFH5tCR0Kl0STqh8UhJOqHRJeKJYYxVrrGKNVayxLg4l4SmVn5CETuUuCZ1Kp9Il4SmVV4o1VrHGKtZYxRrr4n8mCa8koVPpVLokdCpPFGusYo1VrLGKNdbFL6RyQqVLwp1Kl4QuCZ1Kp/IuxRqrWGMVa6xijXVxSOUnqDyVhFeScELlRBI6lSeKNVaxxirWWMUaK4AModIl4SmVLgl3KieS0KmcSMIJlbtijVWssYo11n+YS/arAwFlpgAAAABJRU5ErkJggg==" />
+      <div style="width: auto" class="flex">
+        <img
+          width="66.66666666666667px"
+          height="66.66666666666667px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAAklEQVR4AewaftIAAAHrSURBVO3BWYorOQAAwUzh+185py0QFKa8jXt5H4oQiB9S8YzKKyoWle822KbBNg226cKNik+oPKNypuJdFZ9QuRps02CbLjyg8kzFK1R+msorKm4NtmmwTRf+QMUZlXsqftJgmwbbdOGPqSwVRyq/ZbBNg2268EDFb1I5qnhHxf812KbBNg226cINlb9ScaSyVJxR+Q6DbRpsk33hF6icqfgXDLZpsE0CcVCxqHyi4ozKKyrOqHyi4tZgmwbbJBAvqDijclSxqJypOKPyropXqCwVi8rVYJsG22RfOFBZKt6lcqZiUVkq7lFZKhaVMxWvUFkqrgbbNNgm+8KbVJaKV6gsFYvKJyrOqLyi4mqwTYNtGmzThRsqS8UzKvdUvKPiSGWpOKOyVCwV7xhs02CbLtyoeKbiu1T8BpWlYlG5GmzTYJsE4odUPKNyT8WislScUbmnYlFZKq4G2zTYJoE4qPiEylKxqJyp+ITKmYojlUcG2zTYpgsPqDxT8V1UjioWlaViqVhUXlFxa7BNg2268A9TOaOyVCwVi8pRxSODbRps02CbLvyBijMVRypLxaKyqCwVS8U7Bts02KYLD1R8l4pnVO5ROVNxRuWo4pHBNg22SSB+SMWi8kzFkcpScUZlqbhH5UzF1WCb/gOD3vZhX4N+EwAAAABJRU5ErkJggg=="
+        />
       </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
-      <div class="flex-1" style="font-size: 10px; text-align: left">
-        <div>
-          <span style="font-size: 1rem;">Asset ID:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Asset Name:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Export Date:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
-        </div>
-      </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
       <div
-        style="width: 15%; height: 100%; background-color: blue"
-        class=""
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
       ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="33.333333333333336px"
+          height="33.333333333333336px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABYCAYAAAC9DArfAAAEuklEQVR4Ae1d0XWcMBBMCcty/k8J7sDuIOkg6SDpwOnAJbiElOASUoJLcAnO2zvBGSMJaTULAvnewzyDjpNGs6PVroAvX0AfZv7DzE872x6I6B4EQdplmPk3M7/teHuVTiair2ktLijV9/3zjoH62MmPREQFcMS/yszSMx9/dM//v5iwjIhuDwbU0Ml4wPq+/3lQsAQ0AQxnksz8eGCwBLDHuAhlnD2YuA8mONnD3IuDs+oMWtd1fzP44y96Op3uWwBLRvti7WLmX42A9VZsikLPVsASYvjtK/EoM/9rCCz9qCg23BBQIvRPiRyaF2tI3Ac3Qg9WS+LuLEgPVmPiXmaGMm/61Ky5PM2ONCjuemY1KO56sJj5oTET1IPVQqTBQwbdaHjAMLIwZ2lTg7V04SOeV4P1qVkzHyFyQBIVp9Ppbk+bSwBrWa9jVgTD6k8VDE4P1TcOXUHtNI2IfqDrUvX1JHGqHclNkq41o6XVrK7rXmpuF7xujlUqcW/OBD9Zlci/QlbZL0NKbMcqxbSsIqKyjM4qrQP+iJZVzQElmOeySkY+IroD9tc+LpXDqq7rJAeKMTsJJd/c3NxKGhu9WUGfwio4k1wPmSUouq57RgOWyarnvu8x05k1coQSxUACppwwvxSDpp18JkQfR49amIACqzShIkxX18d6AQgRQcMfSlaNHec6OX8BrnWOED1JBS8IzluAW0rpJVNU0z1gswaZ8vSlRsbiDg3Vglk1mmXyqj8rcXf+DUzUhWgGrDoDluzaWFUAHSOyYtUgI6LdAcu/HM5x7IaLpuyTeypau+lJq04d2rPof/V9/30ojNyjRd2aVa7tcaG3WACC9qmEX9ascmDFByOQczeOKmifSoBaiVXShjhY2rRRyGSJ6NtUacr/W4lVcbAM7iOM94wCtxVZFQcLKe4WPpUbqc3CRh7rCHc28j5CtE8lJHR3+4966Gkc+lwYLJS4W4j6BqyKmyFK3NE+1UasCoOFEncLn8qxCm1iKdfzmyFilHGiHp9PKUbAlCSEkX75wUKIu4Wob8iqsBkCwsj+XlAw6f1XNmRVFKwUGw6VkfuJoXEqAWxjVvnBKg0jW4i6gLUxq/xglYSRLXyqSljlB6skjGxhfpWwyg9WgbibiHoFWiVAzcHS5ggtJsrCKPlUoFV+sLTibuFTCVAVsWrOLI24i8ZdOID/i5rMgzz6qcxoxN1K1LUsBwEzmN77/RSs3BCtlU8lHK2MVVMzzBV3K5/KAVXj096uzMqlveUi1VyGG5qe3wwzc4RXlMG6jggPGYF3bXOqRlj6VIJ7payaalZqGNnKp6pYqwZTvDArNYxsKeqVs0oAu6x1SM0RWvlUO2CVPMbusvQ7JYxs6VPtgFUC1iWguSTuTtThyQcBST4Vj4BnvZqsJ1sS95GCrnHoXcUj4Bms0adMEPerf4FG6eIq1P4s+Wv7F0zAJPkwYO5CMGsu7hjcgKT9zKeMibv1DYobLO5IAsnNAOZECYm7tU9VM6tmjBpMITSPGofKoSB4n+rbhepneDz8WoYAs+IrcwHA5UY5DMER03yVwOc46oXa58xBHoB/fg2MtfP5vh5EJHGrLV8/I6+SuVu8IcBV+j8otbRP7hxZZQAAAABJRU5ErkJggg=="
+        />
+      </div>
     </div>
     
     <div style="height: 8px" class="pb_before"></div>
@@ -199,29 +312,368 @@
       style="height: 100%; width: 100%"
       class="flex items-center justify-between"
     >
-      <div class="flex">
-        <img height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABnCAYAAAAdQVz5AAAAAklEQVR4AewaftIAAAJsSURBVO3BUWosWQwFwTyi9r/lHH8WwtCXovtZ9igigAyh8lQSnlDpkjBBscYq1ljFGqtYY118Q+XTkvBUEk6ovIvKpyXhrlhjFWusYo1VrLEuDiXhKZWnkjBVEp5SeaVYYxVrrGKNVayxLn4hlRNJeEVlqmKNVayxijVWsca6+COS0Kl0SfgtijVWscYq1ljFGuvikMpvk4RO5V1UPqlYYxVrrGKNVayxLr6RhL9ApUvCncqJJPxrxRqrWGMVa6xijRW/MFgSTqj8NcUaq1hjFWusYo0VQBqVLgmfpnIiCU+pvJKET1N5pVhjFWusYo1VrLECyEMqJ5LQqXRJOKFyIgnvovJUEjqVLgl3xRqrWGMVa6xijRW/0CShU3mnJJxQ6ZLQqZxIwp1Kl4QTKk8loVO5K9ZYxRqrWGMVa6z4hTdKQqfyVBI6lS4Jn6RyIglPqdwVa6xijVWssYo11sU3ktCpPJWEEyrvpNIl4U7lRBI6lU7lXYo1VrHGKtZYF99QeUrlJ6hMlYROpUvCXbHGKtZYxRqrWGMFkCFUnkrCCZW7JHQqJ5JwQqVLQqdyV6yxijVWscYq1lgBpFH5tCR0Kl0STqh8UhJOqHRJeKJYYxVrrGKNVayxLg4l4SmVn5CETuUuCZ1Kp9Il4SmVV4o1VrHGKtZYxRrr4n8mCa8koVPpVLokdCpPFGusYo1VrLGKNdbFL6RyQqVLwp1Kl4QuCZ1Kp/IuxRqrWGMVa6xijXVxSOUnqDyVhFeScELlRBI6lSeKNVaxxirWWMUaK4AModIl4SmVLgl3KieS0KmcSMIJlbtijVWssYo11n+YS/arAwFlpgAAAABJRU5ErkJggg==" />
+      <div style="width: auto" class="flex">
+        <img
+          width="66.66666666666667px"
+          height="66.66666666666667px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAAklEQVR4AewaftIAAAHrSURBVO3BWYorOQAAwUzh+185py0QFKa8jXt5H4oQiB9S8YzKKyoWle822KbBNg226cKNik+oPKNypuJdFZ9QuRps02CbLjyg8kzFK1R+msorKm4NtmmwTRf+QMUZlXsqftJgmwbbdOGPqSwVRyq/ZbBNg2268EDFb1I5qnhHxf812KbBNg226cINlb9ScaSyVJxR+Q6DbRpsk33hF6icqfgXDLZpsE0CcVCxqHyi4ozKKyrOqHyi4tZgmwbbJBAvqDijclSxqJypOKPyropXqCwVi8rVYJsG22RfOFBZKt6lcqZiUVkq7lFZKhaVMxWvUFkqrgbbNNgm+8KbVJaKV6gsFYvKJyrOqLyi4mqwTYNtGmzThRsqS8UzKvdUvKPiSGWpOKOyVCwV7xhs02CbLtyoeKbiu1T8BpWlYlG5GmzTYJsE4odUPKNyT8WislScUbmnYlFZKq4G2zTYJoE4qPiEylKxqJyp+ITKmYojlUcG2zTYpgsPqDxT8V1UjioWlaViqVhUXlFxa7BNg2268A9TOaOyVCwVi8pRxSODbRps02CbLvyBijMVRypLxaKyqCwVS8U7Bts02KYLD1R8l4pnVO5ROVNxRuWo4pHBNg22SSB+SMWi8kzFkcpScUZlqbhH5UzF1WCb/gOD3vZhX4N+EwAAAABJRU5ErkJggg=="
+        />
       </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
-      <div class="flex-1" style="font-size: 10px; text-align: left">
-        <div>
-          <span style="font-size: 1rem;">Asset ID:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">BXOLAKSO</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Asset Name:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">A Buddy</span>
-        </div>
-        <div>
-          <span style="font-size: 1rem;">Export Date:</span>
-          <span style="font-size: 1.2rem; font-weight: bold;">10 May 2022</span>
-        </div>
-      </div>
-      <div style="height: 100%; width: .1rem; background-color: #94a3b8; margin: 0 0.4rem;"></div>
       <div
-        style="width: 15%; height: 100%; background-color: blue"
-        class=""
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
       ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="33.333333333333336px"
+          height="33.333333333333336px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABYCAYAAAC9DArfAAAEuklEQVR4Ae1d0XWcMBBMCcty/k8J7sDuIOkg6SDpwOnAJbiElOASUoJLcAnO2zvBGSMJaTULAvnewzyDjpNGs6PVroAvX0AfZv7DzE872x6I6B4EQdplmPk3M7/teHuVTiair2ktLijV9/3zjoH62MmPREQFcMS/yszSMx9/dM//v5iwjIhuDwbU0Ml4wPq+/3lQsAQ0AQxnksz8eGCwBLDHuAhlnD2YuA8mONnD3IuDs+oMWtd1fzP44y96Op3uWwBLRvti7WLmX42A9VZsikLPVsASYvjtK/EoM/9rCCz9qCg23BBQIvRPiRyaF2tI3Ac3Qg9WS+LuLEgPVmPiXmaGMm/61Ky5PM2ONCjuemY1KO56sJj5oTET1IPVQqTBQwbdaHjAMLIwZ2lTg7V04SOeV4P1qVkzHyFyQBIVp9Ppbk+bSwBrWa9jVgTD6k8VDE4P1TcOXUHtNI2IfqDrUvX1JHGqHclNkq41o6XVrK7rXmpuF7xujlUqcW/OBD9Zlci/QlbZL0NKbMcqxbSsIqKyjM4qrQP+iJZVzQElmOeySkY+IroD9tc+LpXDqq7rJAeKMTsJJd/c3NxKGhu9WUGfwio4k1wPmSUouq57RgOWyarnvu8x05k1coQSxUACppwwvxSDpp18JkQfR49amIACqzShIkxX18d6AQgRQcMfSlaNHec6OX8BrnWOED1JBS8IzluAW0rpJVNU0z1gswaZ8vSlRsbiDg3Vglk1mmXyqj8rcXf+DUzUhWgGrDoDluzaWFUAHSOyYtUgI6LdAcu/HM5x7IaLpuyTeypau+lJq04d2rPof/V9/30ojNyjRd2aVa7tcaG3WACC9qmEX9ascmDFByOQczeOKmifSoBaiVXShjhY2rRRyGSJ6NtUacr/W4lVcbAM7iOM94wCtxVZFQcLKe4WPpUbqc3CRh7rCHc28j5CtE8lJHR3+4966Gkc+lwYLJS4W4j6BqyKmyFK3NE+1UasCoOFEncLn8qxCm1iKdfzmyFilHGiHp9PKUbAlCSEkX75wUKIu4Wob8iqsBkCwsj+XlAw6f1XNmRVFKwUGw6VkfuJoXEqAWxjVvnBKg0jW4i6gLUxq/xglYSRLXyqSljlB6skjGxhfpWwyg9WgbibiHoFWiVAzcHS5ggtJsrCKPlUoFV+sLTibuFTCVAVsWrOLI24i8ZdOID/i5rMgzz6qcxoxN1K1LUsBwEzmN77/RSs3BCtlU8lHK2MVVMzzBV3K5/KAVXj096uzMqlveUi1VyGG5qe3wwzc4RXlMG6jggPGYF3bXOqRlj6VIJ7payaalZqGNnKp6pYqwZTvDArNYxsKeqVs0oAu6x1SM0RWvlUO2CVPMbusvQ7JYxs6VPtgFUC1iWguSTuTtThyQcBST4Vj4BnvZqsJ1sS95GCrnHoXcUj4Bms0adMEPerf4FG6eIq1P4s+Wv7F0zAJPkwYO5CMGsu7hjcgKT9zKeMibv1DYobLO5IAsnNAOZECYm7tU9VM6tmjBpMITSPGofKoSB4n+rbhepneDz8WoYAs+IrcwHA5UY5DMER03yVwOc46oXa58xBHoB/fg2MtfP5vh5EJHGrLV8/I6+SuVu8IcBV+j8otbRP7hxZZQAAAABJRU5ErkJggg=="
+        />
+      </div>
+    </div>
+      
+    
+    <div style="height: 8px" class="pb_before"></div>
+    <div class="flex">
+      <div>Wall 1</div>
+    </div>
+    <div style="height: 8px" class="pb_before"></div>
+    
+    
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div style="width: auto" class="flex">
+        <img
+          width="66.66666666666667px"
+          height="66.66666666666667px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAAklEQVR4AewaftIAAAHrSURBVO3BWYorOQAAwUzh+185py0QFKa8jXt5H4oQiB9S8YzKKyoWle822KbBNg226cKNik+oPKNypuJdFZ9QuRps02CbLjyg8kzFK1R+msorKm4NtmmwTRf+QMUZlXsqftJgmwbbdOGPqSwVRyq/ZbBNg2268EDFb1I5qnhHxf812KbBNg226cINlb9ScaSyVJxR+Q6DbRpsk33hF6icqfgXDLZpsE0CcVCxqHyi4ozKKyrOqHyi4tZgmwbbJBAvqDijclSxqJypOKPyropXqCwVi8rVYJsG22RfOFBZKt6lcqZiUVkq7lFZKhaVMxWvUFkqrgbbNNgm+8KbVJaKV6gsFYvKJyrOqLyi4mqwTYNtGmzThRsqS8UzKvdUvKPiSGWpOKOyVCwV7xhs02CbLtyoeKbiu1T8BpWlYlG5GmzTYJsE4odUPKNyT8WislScUbmnYlFZKq4G2zTYJoE4qPiEylKxqJyp+ITKmYojlUcG2zTYpgsPqDxT8V1UjioWlaViqVhUXlFxa7BNg2268A9TOaOyVCwVi8pRxSODbRps02CbLvyBijMVRypLxaKyqCwVS8U7Bts02KYLD1R8l4pnVO5ROVNxRuWo4pHBNg22SSB+SMWi8kzFkcpScUZlqbhH5UzF1WCb/gOD3vZhX4N+EwAAAABJRU5ErkJggg=="
+        />
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="33.333333333333336px"
+          height="33.333333333333336px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABYCAYAAAC9DArfAAAEuklEQVR4Ae1d0XWcMBBMCcty/k8J7sDuIOkg6SDpwOnAJbiElOASUoJLcAnO2zvBGSMJaTULAvnewzyDjpNGs6PVroAvX0AfZv7DzE872x6I6B4EQdplmPk3M7/teHuVTiair2ktLijV9/3zjoH62MmPREQFcMS/yszSMx9/dM//v5iwjIhuDwbU0Ml4wPq+/3lQsAQ0AQxnksz8eGCwBLDHuAhlnD2YuA8mONnD3IuDs+oMWtd1fzP44y96Op3uWwBLRvti7WLmX42A9VZsikLPVsASYvjtK/EoM/9rCCz9qCg23BBQIvRPiRyaF2tI3Ac3Qg9WS+LuLEgPVmPiXmaGMm/61Ky5PM2ONCjuemY1KO56sJj5oTET1IPVQqTBQwbdaHjAMLIwZ2lTg7V04SOeV4P1qVkzHyFyQBIVp9Ppbk+bSwBrWa9jVgTD6k8VDE4P1TcOXUHtNI2IfqDrUvX1JHGqHclNkq41o6XVrK7rXmpuF7xujlUqcW/OBD9Zlci/QlbZL0NKbMcqxbSsIqKyjM4qrQP+iJZVzQElmOeySkY+IroD9tc+LpXDqq7rJAeKMTsJJd/c3NxKGhu9WUGfwio4k1wPmSUouq57RgOWyarnvu8x05k1coQSxUACppwwvxSDpp18JkQfR49amIACqzShIkxX18d6AQgRQcMfSlaNHec6OX8BrnWOED1JBS8IzluAW0rpJVNU0z1gswaZ8vSlRsbiDg3Vglk1mmXyqj8rcXf+DUzUhWgGrDoDluzaWFUAHSOyYtUgI6LdAcu/HM5x7IaLpuyTeypau+lJq04d2rPof/V9/30ojNyjRd2aVa7tcaG3WACC9qmEX9ascmDFByOQczeOKmifSoBaiVXShjhY2rRRyGSJ6NtUacr/W4lVcbAM7iOM94wCtxVZFQcLKe4WPpUbqc3CRh7rCHc28j5CtE8lJHR3+4966Gkc+lwYLJS4W4j6BqyKmyFK3NE+1UasCoOFEncLn8qxCm1iKdfzmyFilHGiHp9PKUbAlCSEkX75wUKIu4Wob8iqsBkCwsj+XlAw6f1XNmRVFKwUGw6VkfuJoXEqAWxjVvnBKg0jW4i6gLUxq/xglYSRLXyqSljlB6skjGxhfpWwyg9WgbibiHoFWiVAzcHS5ggtJsrCKPlUoFV+sLTibuFTCVAVsWrOLI24i8ZdOID/i5rMgzz6qcxoxN1K1LUsBwEzmN77/RSs3BCtlU8lHK2MVVMzzBV3K5/KAVXj096uzMqlveUi1VyGG5qe3wwzc4RXlMG6jggPGYF3bXOqRlj6VIJ7payaalZqGNnKp6pYqwZTvDArNYxsKeqVs0oAu6x1SM0RWvlUO2CVPMbusvQ7JYxs6VPtgFUC1iWguSTuTtThyQcBST4Vj4BnvZqsJ1sS95GCrnHoXcUj4Bms0adMEPerf4FG6eIq1P4s+Wv7F0zAJPkwYO5CMGsu7hjcgKT9zKeMibv1DYobLO5IAsnNAOZECYm7tU9VM6tmjBpMITSPGofKoSB4n+rbhepneDz8WoYAs+IrcwHA5UY5DMER03yVwOc46oXa58xBHoB/fg2MtfP5vh5EJHGrLV8/I6+SuVu8IcBV+j8otbRP7hxZZQAAAABJRU5ErkJggg=="
+        />
+      </div>
+    </div>
+    
+    <div style="height: 8px" class="pb_before"></div>
+     
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div style="width: auto" class="flex">
+        <img
+          width="66.66666666666667px"
+          height="66.66666666666667px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAAklEQVR4AewaftIAAAHrSURBVO3BWYorOQAAwUzh+185py0QFKa8jXt5H4oQiB9S8YzKKyoWle822KbBNg226cKNik+oPKNypuJdFZ9QuRps02CbLjyg8kzFK1R+msorKm4NtmmwTRf+QMUZlXsqftJgmwbbdOGPqSwVRyq/ZbBNg2268EDFb1I5qnhHxf812KbBNg226cINlb9ScaSyVJxR+Q6DbRpsk33hF6icqfgXDLZpsE0CcVCxqHyi4ozKKyrOqHyi4tZgmwbbJBAvqDijclSxqJypOKPyropXqCwVi8rVYJsG22RfOFBZKt6lcqZiUVkq7lFZKhaVMxWvUFkqrgbbNNgm+8KbVJaKV6gsFYvKJyrOqLyi4mqwTYNtGmzThRsqS8UzKvdUvKPiSGWpOKOyVCwV7xhs02CbLtyoeKbiu1T8BpWlYlG5GmzTYJsE4odUPKNyT8WislScUbmnYlFZKq4G2zTYJoE4qPiEylKxqJyp+ITKmYojlUcG2zTYpgsPqDxT8V1UjioWlaViqVhUXlFxa7BNg2268A9TOaOyVCwVi8pRxSODbRps02CbLvyBijMVRypLxaKyqCwVS8U7Bts02KYLD1R8l4pnVO5ROVNxRuWo4pHBNg22SSB+SMWi8kzFkcpScUZlqbhH5UzF1WCb/gOD3vZhX4N+EwAAAABJRU5ErkJggg=="
+        />
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="33.333333333333336px"
+          height="33.333333333333336px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABYCAYAAAC9DArfAAAEuklEQVR4Ae1d0XWcMBBMCcty/k8J7sDuIOkg6SDpwOnAJbiElOASUoJLcAnO2zvBGSMJaTULAvnewzyDjpNGs6PVroAvX0AfZv7DzE872x6I6B4EQdplmPk3M7/teHuVTiair2ktLijV9/3zjoH62MmPREQFcMS/yszSMx9/dM//v5iwjIhuDwbU0Ml4wPq+/3lQsAQ0AQxnksz8eGCwBLDHuAhlnD2YuA8mONnD3IuDs+oMWtd1fzP44y96Op3uWwBLRvti7WLmX42A9VZsikLPVsASYvjtK/EoM/9rCCz9qCg23BBQIvRPiRyaF2tI3Ac3Qg9WS+LuLEgPVmPiXmaGMm/61Ky5PM2ONCjuemY1KO56sJj5oTET1IPVQqTBQwbdaHjAMLIwZ2lTg7V04SOeV4P1qVkzHyFyQBIVp9Ppbk+bSwBrWa9jVgTD6k8VDE4P1TcOXUHtNI2IfqDrUvX1JHGqHclNkq41o6XVrK7rXmpuF7xujlUqcW/OBD9Zlci/QlbZL0NKbMcqxbSsIqKyjM4qrQP+iJZVzQElmOeySkY+IroD9tc+LpXDqq7rJAeKMTsJJd/c3NxKGhu9WUGfwio4k1wPmSUouq57RgOWyarnvu8x05k1coQSxUACppwwvxSDpp18JkQfR49amIACqzShIkxX18d6AQgRQcMfSlaNHec6OX8BrnWOED1JBS8IzluAW0rpJVNU0z1gswaZ8vSlRsbiDg3Vglk1mmXyqj8rcXf+DUzUhWgGrDoDluzaWFUAHSOyYtUgI6LdAcu/HM5x7IaLpuyTeypau+lJq04d2rPof/V9/30ojNyjRd2aVa7tcaG3WACC9qmEX9ascmDFByOQczeOKmifSoBaiVXShjhY2rRRyGSJ6NtUacr/W4lVcbAM7iOM94wCtxVZFQcLKe4WPpUbqc3CRh7rCHc28j5CtE8lJHR3+4966Gkc+lwYLJS4W4j6BqyKmyFK3NE+1UasCoOFEncLn8qxCm1iKdfzmyFilHGiHp9PKUbAlCSEkX75wUKIu4Wob8iqsBkCwsj+XlAw6f1XNmRVFKwUGw6VkfuJoXEqAWxjVvnBKg0jW4i6gLUxq/xglYSRLXyqSljlB6skjGxhfpWwyg9WgbibiHoFWiVAzcHS5ggtJsrCKPlUoFV+sLTibuFTCVAVsWrOLI24i8ZdOID/i5rMgzz6qcxoxN1K1LUsBwEzmN77/RSs3BCtlU8lHK2MVVMzzBV3K5/KAVXj096uzMqlveUi1VyGG5qe3wwzc4RXlMG6jggPGYF3bXOqRlj6VIJ7payaalZqGNnKp6pYqwZTvDArNYxsKeqVs0oAu6x1SM0RWvlUO2CVPMbusvQ7JYxs6VPtgFUC1iWguSTuTtThyQcBST4Vj4BnvZqsJ1sS95GCrnHoXcUj4Bms0adMEPerf4FG6eIq1P4s+Wv7F0zAJPkwYO5CMGsu7hjcgKT9zKeMibv1DYobLO5IAsnNAOZECYm7tU9VM6tmjBpMITSPGofKoSB4n+rbhepneDz8WoYAs+IrcwHA5UY5DMER03yVwOc46oXa58xBHoB/fg2MtfP5vh5EJHGrLV8/I6+SuVu8IcBV+j8otbRP7hxZZQAAAABJRU5ErkJggg=="
+        />
+      </div>
+    </div>
+    
+    <div style="height: 8px" class="pb_before"></div>
+     
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div style="width: auto" class="flex">
+        <img
+          width="66.66666666666667px"
+          height="66.66666666666667px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAAklEQVR4AewaftIAAAHrSURBVO3BWYorOQAAwUzh+185py0QFKa8jXt5H4oQiB9S8YzKKyoWle822KbBNg226cKNik+oPKNypuJdFZ9QuRps02CbLjyg8kzFK1R+msorKm4NtmmwTRf+QMUZlXsqftJgmwbbdOGPqSwVRyq/ZbBNg2268EDFb1I5qnhHxf812KbBNg226cINlb9ScaSyVJxR+Q6DbRpsk33hF6icqfgXDLZpsE0CcVCxqHyi4ozKKyrOqHyi4tZgmwbbJBAvqDijclSxqJypOKPyropXqCwVi8rVYJsG22RfOFBZKt6lcqZiUVkq7lFZKhaVMxWvUFkqrgbbNNgm+8KbVJaKV6gsFYvKJyrOqLyi4mqwTYNtGmzThRsqS8UzKvdUvKPiSGWpOKOyVCwV7xhs02CbLtyoeKbiu1T8BpWlYlG5GmzTYJsE4odUPKNyT8WislScUbmnYlFZKq4G2zTYJoE4qPiEylKxqJyp+ITKmYojlUcG2zTYpgsPqDxT8V1UjioWlaViqVhUXlFxa7BNg2268A9TOaOyVCwVi8pRxSODbRps02CbLvyBijMVRypLxaKyqCwVS8U7Bts02KYLD1R8l4pnVO5ROVNxRuWo4pHBNg22SSB+SMWi8kzFkcpScUZlqbhH5UzF1WCb/gOD3vZhX4N+EwAAAABJRU5ErkJggg=="
+        />
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="33.333333333333336px"
+          height="33.333333333333336px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABYCAYAAAC9DArfAAAEuklEQVR4Ae1d0XWcMBBMCcty/k8J7sDuIOkg6SDpwOnAJbiElOASUoJLcAnO2zvBGSMJaTULAvnewzyDjpNGs6PVroAvX0AfZv7DzE872x6I6B4EQdplmPk3M7/teHuVTiair2ktLijV9/3zjoH62MmPREQFcMS/yszSMx9/dM//v5iwjIhuDwbU0Ml4wPq+/3lQsAQ0AQxnksz8eGCwBLDHuAhlnD2YuA8mONnD3IuDs+oMWtd1fzP44y96Op3uWwBLRvti7WLmX42A9VZsikLPVsASYvjtK/EoM/9rCCz9qCg23BBQIvRPiRyaF2tI3Ac3Qg9WS+LuLEgPVmPiXmaGMm/61Ky5PM2ONCjuemY1KO56sJj5oTET1IPVQqTBQwbdaHjAMLIwZ2lTg7V04SOeV4P1qVkzHyFyQBIVp9Ppbk+bSwBrWa9jVgTD6k8VDE4P1TcOXUHtNI2IfqDrUvX1JHGqHclNkq41o6XVrK7rXmpuF7xujlUqcW/OBD9Zlci/QlbZL0NKbMcqxbSsIqKyjM4qrQP+iJZVzQElmOeySkY+IroD9tc+LpXDqq7rJAeKMTsJJd/c3NxKGhu9WUGfwio4k1wPmSUouq57RgOWyarnvu8x05k1coQSxUACppwwvxSDpp18JkQfR49amIACqzShIkxX18d6AQgRQcMfSlaNHec6OX8BrnWOED1JBS8IzluAW0rpJVNU0z1gswaZ8vSlRsbiDg3Vglk1mmXyqj8rcXf+DUzUhWgGrDoDluzaWFUAHSOyYtUgI6LdAcu/HM5x7IaLpuyTeypau+lJq04d2rPof/V9/30ojNyjRd2aVa7tcaG3WACC9qmEX9ascmDFByOQczeOKmifSoBaiVXShjhY2rRRyGSJ6NtUacr/W4lVcbAM7iOM94wCtxVZFQcLKe4WPpUbqc3CRh7rCHc28j5CtE8lJHR3+4966Gkc+lwYLJS4W4j6BqyKmyFK3NE+1UasCoOFEncLn8qxCm1iKdfzmyFilHGiHp9PKUbAlCSEkX75wUKIu4Wob8iqsBkCwsj+XlAw6f1XNmRVFKwUGw6VkfuJoXEqAWxjVvnBKg0jW4i6gLUxq/xglYSRLXyqSljlB6skjGxhfpWwyg9WgbibiHoFWiVAzcHS5ggtJsrCKPlUoFV+sLTibuFTCVAVsWrOLI24i8ZdOID/i5rMgzz6qcxoxN1K1LUsBwEzmN77/RSs3BCtlU8lHK2MVVMzzBV3K5/KAVXj096uzMqlveUi1VyGG5qe3wwzc4RXlMG6jggPGYF3bXOqRlj6VIJ7payaalZqGNnKp6pYqwZTvDArNYxsKeqVs0oAu6x1SM0RWvlUO2CVPMbusvQ7JYxs6VPtgFUC1iWguSTuTtThyQcBST4Vj4BnvZqsJ1sS95GCrnHoXcUj4Bms0adMEPerf4FG6eIq1P4s+Wv7F0zAJPkwYO5CMGsu7hjcgKT9zKeMibv1DYobLO5IAsnNAOZECYm7tU9VM6tmjBpMITSPGofKoSB4n+rbhepneDz8WoYAs+IrcwHA5UY5DMER03yVwOc46oXa58xBHoB/fg2MtfP5vh5EJHGrLV8/I6+SuVu8IcBV+j8otbRP7hxZZQAAAABJRU5ErkJggg=="
+        />
+      </div>
+    </div>
+    
+    <div style="height: 8px" class="pb_before"></div>
+     
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div style="width: auto" class="flex">
+        <img
+          width="66.66666666666667px"
+          height="66.66666666666667px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAAklEQVR4AewaftIAAAHrSURBVO3BWYorOQAAwUzh+185py0QFKa8jXt5H4oQiB9S8YzKKyoWle822KbBNg226cKNik+oPKNypuJdFZ9QuRps02CbLjyg8kzFK1R+msorKm4NtmmwTRf+QMUZlXsqftJgmwbbdOGPqSwVRyq/ZbBNg2268EDFb1I5qnhHxf812KbBNg226cINlb9ScaSyVJxR+Q6DbRpsk33hF6icqfgXDLZpsE0CcVCxqHyi4ozKKyrOqHyi4tZgmwbbJBAvqDijclSxqJypOKPyropXqCwVi8rVYJsG22RfOFBZKt6lcqZiUVkq7lFZKhaVMxWvUFkqrgbbNNgm+8KbVJaKV6gsFYvKJyrOqLyi4mqwTYNtGmzThRsqS8UzKvdUvKPiSGWpOKOyVCwV7xhs02CbLtyoeKbiu1T8BpWlYlG5GmzTYJsE4odUPKNyT8WislScUbmnYlFZKq4G2zTYJoE4qPiEylKxqJyp+ITKmYojlUcG2zTYpgsPqDxT8V1UjioWlaViqVhUXlFxa7BNg2268A9TOaOyVCwVi8pRxSODbRps02CbLvyBijMVRypLxaKyqCwVS8U7Bts02KYLD1R8l4pnVO5ROVNxRuWo4pHBNg22SSB+SMWi8kzFkcpScUZlqbhH5UzF1WCb/gOD3vZhX4N+EwAAAABJRU5ErkJggg=="
+        />
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="33.333333333333336px"
+          height="33.333333333333336px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABYCAYAAAC9DArfAAAEuklEQVR4Ae1d0XWcMBBMCcty/k8J7sDuIOkg6SDpwOnAJbiElOASUoJLcAnO2zvBGSMJaTULAvnewzyDjpNGs6PVroAvX0AfZv7DzE872x6I6B4EQdplmPk3M7/teHuVTiair2ktLijV9/3zjoH62MmPREQFcMS/yszSMx9/dM//v5iwjIhuDwbU0Ml4wPq+/3lQsAQ0AQxnksz8eGCwBLDHuAhlnD2YuA8mONnD3IuDs+oMWtd1fzP44y96Op3uWwBLRvti7WLmX42A9VZsikLPVsASYvjtK/EoM/9rCCz9qCg23BBQIvRPiRyaF2tI3Ac3Qg9WS+LuLEgPVmPiXmaGMm/61Ky5PM2ONCjuemY1KO56sJj5oTET1IPVQqTBQwbdaHjAMLIwZ2lTg7V04SOeV4P1qVkzHyFyQBIVp9Ppbk+bSwBrWa9jVgTD6k8VDE4P1TcOXUHtNI2IfqDrUvX1JHGqHclNkq41o6XVrK7rXmpuF7xujlUqcW/OBD9Zlci/QlbZL0NKbMcqxbSsIqKyjM4qrQP+iJZVzQElmOeySkY+IroD9tc+LpXDqq7rJAeKMTsJJd/c3NxKGhu9WUGfwio4k1wPmSUouq57RgOWyarnvu8x05k1coQSxUACppwwvxSDpp18JkQfR49amIACqzShIkxX18d6AQgRQcMfSlaNHec6OX8BrnWOED1JBS8IzluAW0rpJVNU0z1gswaZ8vSlRsbiDg3Vglk1mmXyqj8rcXf+DUzUhWgGrDoDluzaWFUAHSOyYtUgI6LdAcu/HM5x7IaLpuyTeypau+lJq04d2rPof/V9/30ojNyjRd2aVa7tcaG3WACC9qmEX9ascmDFByOQczeOKmifSoBaiVXShjhY2rRRyGSJ6NtUacr/W4lVcbAM7iOM94wCtxVZFQcLKe4WPpUbqc3CRh7rCHc28j5CtE8lJHR3+4966Gkc+lwYLJS4W4j6BqyKmyFK3NE+1UasCoOFEncLn8qxCm1iKdfzmyFilHGiHp9PKUbAlCSEkX75wUKIu4Wob8iqsBkCwsj+XlAw6f1XNmRVFKwUGw6VkfuJoXEqAWxjVvnBKg0jW4i6gLUxq/xglYSRLXyqSljlB6skjGxhfpWwyg9WgbibiHoFWiVAzcHS5ggtJsrCKPlUoFV+sLTibuFTCVAVsWrOLI24i8ZdOID/i5rMgzz6qcxoxN1K1LUsBwEzmN77/RSs3BCtlU8lHK2MVVMzzBV3K5/KAVXj096uzMqlveUi1VyGG5qe3wwzc4RXlMG6jggPGYF3bXOqRlj6VIJ7payaalZqGNnKp6pYqwZTvDArNYxsKeqVs0oAu6x1SM0RWvlUO2CVPMbusvQ7JYxs6VPtgFUC1iWguSTuTtThyQcBST4Vj4BnvZqsJ1sS95GCrnHoXcUj4Bms0adMEPerf4FG6eIq1P4s+Wv7F0zAJPkwYO5CMGsu7hjcgKT9zKeMibv1DYobLO5IAsnNAOZECYm7tU9VM6tmjBpMITSPGofKoSB4n+rbhepneDz8WoYAs+IrcwHA5UY5DMER03yVwOc46oXa58xBHoB/fg2MtfP5vh5EJHGrLV8/I6+SuVu8IcBV+j8otbRP7hxZZQAAAABJRU5ErkJggg=="
+        />
+      </div>
+    </div>
+    
+    <div style="height: 8px" class="pb_before"></div>
+     
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div style="width: auto" class="flex">
+        <img
+          width="66.66666666666667px"
+          height="66.66666666666667px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAAklEQVR4AewaftIAAAHrSURBVO3BWYorOQAAwUzh+185py0QFKa8jXt5H4oQiB9S8YzKKyoWle822KbBNg226cKNik+oPKNypuJdFZ9QuRps02CbLjyg8kzFK1R+msorKm4NtmmwTRf+QMUZlXsqftJgmwbbdOGPqSwVRyq/ZbBNg2268EDFb1I5qnhHxf812KbBNg226cINlb9ScaSyVJxR+Q6DbRpsk33hF6icqfgXDLZpsE0CcVCxqHyi4ozKKyrOqHyi4tZgmwbbJBAvqDijclSxqJypOKPyropXqCwVi8rVYJsG22RfOFBZKt6lcqZiUVkq7lFZKhaVMxWvUFkqrgbbNNgm+8KbVJaKV6gsFYvKJyrOqLyi4mqwTYNtGmzThRsqS8UzKvdUvKPiSGWpOKOyVCwV7xhs02CbLtyoeKbiu1T8BpWlYlG5GmzTYJsE4odUPKNyT8WislScUbmnYlFZKq4G2zTYJoE4qPiEylKxqJyp+ITKmYojlUcG2zTYpgsPqDxT8V1UjioWlaViqVhUXlFxa7BNg2268A9TOaOyVCwVi8pRxSODbRps02CbLvyBijMVRypLxaKyqCwVS8U7Bts02KYLD1R8l4pnVO5ROVNxRuWo4pHBNg22SSB+SMWi8kzFkcpScUZlqbhH5UzF1WCb/gOD3vZhX4N+EwAAAABJRU5ErkJggg=="
+        />
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="33.333333333333336px"
+          height="33.333333333333336px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABYCAYAAAC9DArfAAAEuklEQVR4Ae1d0XWcMBBMCcty/k8J7sDuIOkg6SDpwOnAJbiElOASUoJLcAnO2zvBGSMJaTULAvnewzyDjpNGs6PVroAvX0AfZv7DzE872x6I6B4EQdplmPk3M7/teHuVTiair2ktLijV9/3zjoH62MmPREQFcMS/yszSMx9/dM//v5iwjIhuDwbU0Ml4wPq+/3lQsAQ0AQxnksz8eGCwBLDHuAhlnD2YuA8mONnD3IuDs+oMWtd1fzP44y96Op3uWwBLRvti7WLmX42A9VZsikLPVsASYvjtK/EoM/9rCCz9qCg23BBQIvRPiRyaF2tI3Ac3Qg9WS+LuLEgPVmPiXmaGMm/61Ky5PM2ONCjuemY1KO56sJj5oTET1IPVQqTBQwbdaHjAMLIwZ2lTg7V04SOeV4P1qVkzHyFyQBIVp9Ppbk+bSwBrWa9jVgTD6k8VDE4P1TcOXUHtNI2IfqDrUvX1JHGqHclNkq41o6XVrK7rXmpuF7xujlUqcW/OBD9Zlci/QlbZL0NKbMcqxbSsIqKyjM4qrQP+iJZVzQElmOeySkY+IroD9tc+LpXDqq7rJAeKMTsJJd/c3NxKGhu9WUGfwio4k1wPmSUouq57RgOWyarnvu8x05k1coQSxUACppwwvxSDpp18JkQfR49amIACqzShIkxX18d6AQgRQcMfSlaNHec6OX8BrnWOED1JBS8IzluAW0rpJVNU0z1gswaZ8vSlRsbiDg3Vglk1mmXyqj8rcXf+DUzUhWgGrDoDluzaWFUAHSOyYtUgI6LdAcu/HM5x7IaLpuyTeypau+lJq04d2rPof/V9/30ojNyjRd2aVa7tcaG3WACC9qmEX9ascmDFByOQczeOKmifSoBaiVXShjhY2rRRyGSJ6NtUacr/W4lVcbAM7iOM94wCtxVZFQcLKe4WPpUbqc3CRh7rCHc28j5CtE8lJHR3+4966Gkc+lwYLJS4W4j6BqyKmyFK3NE+1UasCoOFEncLn8qxCm1iKdfzmyFilHGiHp9PKUbAlCSEkX75wUKIu4Wob8iqsBkCwsj+XlAw6f1XNmRVFKwUGw6VkfuJoXEqAWxjVvnBKg0jW4i6gLUxq/xglYSRLXyqSljlB6skjGxhfpWwyg9WgbibiHoFWiVAzcHS5ggtJsrCKPlUoFV+sLTibuFTCVAVsWrOLI24i8ZdOID/i5rMgzz6qcxoxN1K1LUsBwEzmN77/RSs3BCtlU8lHK2MVVMzzBV3K5/KAVXj096uzMqlveUi1VyGG5qe3wwzc4RXlMG6jggPGYF3bXOqRlj6VIJ7payaalZqGNnKp6pYqwZTvDArNYxsKeqVs0oAu6x1SM0RWvlUO2CVPMbusvQ7JYxs6VPtgFUC1iWguSTuTtThyQcBST4Vj4BnvZqsJ1sS95GCrnHoXcUj4Bms0adMEPerf4FG6eIq1P4s+Wv7F0zAJPkwYO5CMGsu7hjcgKT9zKeMibv1DYobLO5IAsnNAOZECYm7tU9VM6tmjBpMITSPGofKoSB4n+rbhepneDz8WoYAs+IrcwHA5UY5DMER03yVwOc46oXa58xBHoB/fg2MtfP5vh5EJHGrLV8/I6+SuVu8IcBV+j8otbRP7hxZZQAAAABJRU5ErkJggg=="
+        />
+      </div>
+    </div>
+    
+    <div style="height: 8px" class="pb_before"></div>
+     
+    <div
+      style="height: 100%; width: 100%"
+      class="flex items-center justify-between"
+    >
+      <div style="width: auto" class="flex">
+        <img
+          width="66.66666666666667px"
+          height="66.66666666666667px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAAklEQVR4AewaftIAAAHrSURBVO3BWYorOQAAwUzh+185py0QFKa8jXt5H4oQiB9S8YzKKyoWle822KbBNg226cKNik+oPKNypuJdFZ9QuRps02CbLjyg8kzFK1R+msorKm4NtmmwTRf+QMUZlXsqftJgmwbbdOGPqSwVRyq/ZbBNg2268EDFb1I5qnhHxf812KbBNg226cINlb9ScaSyVJxR+Q6DbRpsk33hF6icqfgXDLZpsE0CcVCxqHyi4ozKKyrOqHyi4tZgmwbbJBAvqDijclSxqJypOKPyropXqCwVi8rVYJsG22RfOFBZKt6lcqZiUVkq7lFZKhaVMxWvUFkqrgbbNNgm+8KbVJaKV6gsFYvKJyrOqLyi4mqwTYNtGmzThRsqS8UzKvdUvKPiSGWpOKOyVCwV7xhs02CbLtyoeKbiu1T8BpWlYlG5GmzTYJsE4odUPKNyT8WislScUbmnYlFZKq4G2zTYJoE4qPiEylKxqJyp+ITKmYojlUcG2zTYpgsPqDxT8V1UjioWlaViqVhUXlFxa7BNg2268A9TOaOyVCwVi8pRxSODbRps02CbLvyBijMVRypLxaKyqCwVS8U7Bts02KYLD1R8l4pnVO5ROVNxRuWo4pHBNg22SSB+SMWi8kzFkcpScUZlqbhH5UzF1WCb/gOD3vZhX4N+EwAAAABJRU5ErkJggg=="
+        />
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div class="flex-1" style="text-align: left">
+        <div>
+          <span class="text-label">Asset ID:</span>
+          <span class="text-value">BXOLAKSO</span>
+        </div>
+        <div>
+          <span class="text-label">Asset Name:</span>
+          <span class="text-value">A Buddy</span>
+        </div>
+        <div>
+          <span class="text-label">Export Date:</span>
+          <span class="text-value">10 May 2022</span>
+        </div>
+      </div>
+      <div
+        style="
+          height: 100%;
+          width: 0.1rem;
+          background-color: #94a3b8;
+          margin: 0 0.4rem;
+        "
+      ></div>
+      <div style="width: auto" class="flex">
+        <img
+          width="33.333333333333336px"
+          height="33.333333333333336px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABYCAYAAAC9DArfAAAEuklEQVR4Ae1d0XWcMBBMCcty/k8J7sDuIOkg6SDpwOnAJbiElOASUoJLcAnO2zvBGSMJaTULAvnewzyDjpNGs6PVroAvX0AfZv7DzE872x6I6B4EQdplmPk3M7/teHuVTiair2ktLijV9/3zjoH62MmPREQFcMS/yszSMx9/dM//v5iwjIhuDwbU0Ml4wPq+/3lQsAQ0AQxnksz8eGCwBLDHuAhlnD2YuA8mONnD3IuDs+oMWtd1fzP44y96Op3uWwBLRvti7WLmX42A9VZsikLPVsASYvjtK/EoM/9rCCz9qCg23BBQIvRPiRyaF2tI3Ac3Qg9WS+LuLEgPVmPiXmaGMm/61Ky5PM2ONCjuemY1KO56sJj5oTET1IPVQqTBQwbdaHjAMLIwZ2lTg7V04SOeV4P1qVkzHyFyQBIVp9Ppbk+bSwBrWa9jVgTD6k8VDE4P1TcOXUHtNI2IfqDrUvX1JHGqHclNkq41o6XVrK7rXmpuF7xujlUqcW/OBD9Zlci/QlbZL0NKbMcqxbSsIqKyjM4qrQP+iJZVzQElmOeySkY+IroD9tc+LpXDqq7rJAeKMTsJJd/c3NxKGhu9WUGfwio4k1wPmSUouq57RgOWyarnvu8x05k1coQSxUACppwwvxSDpp18JkQfR49amIACqzShIkxX18d6AQgRQcMfSlaNHec6OX8BrnWOED1JBS8IzluAW0rpJVNU0z1gswaZ8vSlRsbiDg3Vglk1mmXyqj8rcXf+DUzUhWgGrDoDluzaWFUAHSOyYtUgI6LdAcu/HM5x7IaLpuyTeypau+lJq04d2rPof/V9/30ojNyjRd2aVa7tcaG3WACC9qmEX9ascmDFByOQczeOKmifSoBaiVXShjhY2rRRyGSJ6NtUacr/W4lVcbAM7iOM94wCtxVZFQcLKe4WPpUbqc3CRh7rCHc28j5CtE8lJHR3+4966Gkc+lwYLJS4W4j6BqyKmyFK3NE+1UasCoOFEncLn8qxCm1iKdfzmyFilHGiHp9PKUbAlCSEkX75wUKIu4Wob8iqsBkCwsj+XlAw6f1XNmRVFKwUGw6VkfuJoXEqAWxjVvnBKg0jW4i6gLUxq/xglYSRLXyqSljlB6skjGxhfpWwyg9WgbibiHoFWiVAzcHS5ggtJsrCKPlUoFV+sLTibuFTCVAVsWrOLI24i8ZdOID/i5rMgzz6qcxoxN1K1LUsBwEzmN77/RSs3BCtlU8lHK2MVVMzzBV3K5/KAVXj096uzMqlveUi1VyGG5qe3wwzc4RXlMG6jggPGYF3bXOqRlj6VIJ7payaalZqGNnKp6pYqwZTvDArNYxsKeqVs0oAu6x1SM0RWvlUO2CVPMbusvQ7JYxs6VPtgFUC1iWguSTuTtThyQcBST4Vj4BnvZqsJ1sS95GCrnHoXcUj4Bms0adMEPerf4FG6eIq1P4s+Wv7F0zAJPkwYO5CMGsu7hjcgKT9zKeMibv1DYobLO5IAsnNAOZECYm7tU9VM6tmjBpMITSPGofKoSB4n+rbhepneDz8WoYAs+IrcwHA5UY5DMER03yVwOc46oXa58xBHoB/fg2MtfP5vh5EJHGrLV8/I6+SuVu8IcBV+j8otbRP7hxZZQAAAABJRU5ErkJggg=="
+        />
+      </div>
     </div>
      
   </body>
